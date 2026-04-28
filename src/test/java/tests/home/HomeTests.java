@@ -6,13 +6,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import pages.HomePage;
+import utils.Config;
 import utils.Helper;
 
 public class HomeTests {
 
     public void TC001_VerifyHomePage(WebDriver driver) {
         System.out.println("=== Running: TC001_VerifyHomePage ===");
-        driver.get("https://katalon-demo-cura.herokuapp.com/");
+        driver.get(Config.BASE_URL);
         
         HomePage home = new HomePage(driver);
 
@@ -44,41 +45,41 @@ public class HomeTests {
     
     public void TC002_OpeningCuraFacebook(WebDriver driver) {
     	System.out.println("=== Running: TC002_OpeningCuraFacebook ===");
-        driver.get("https://katalon-demo-cura.herokuapp.com/");
+        driver.get(Config.BASE_URL);
         
         HomePage home = new HomePage(driver);
         home.getFbIcon().click();
         
         // Cukup panggil 1 baris helper
-        Helper.verifyCurrentUrl(driver, "facebook.com", "Facebook");
+        Helper.verifyContainsUrl(driver, "facebook.com", "Facebook");
         
         System.out.println("=== TC002 Finished ===");
     }
     
- // TC003: Verify button click twitter (Status: DEFECT)
+
     public void TC003_OpeningCuraTwitter(WebDriver driver) {
     	System.out.println("=== Running: TC003_OpeningCuraTwitter ===");
-        driver.get("https://katalon-demo-cura.herokuapp.com/");
+        driver.get(Config.BASE_URL);
         
         HomePage home = new HomePage(driver);
         home.getTwitterIcon().click();
         
         // Panggil helper untuk Twitter
-        Helper.verifyCurrentUrl(driver, "x.com", "Twitter");
+        Helper.verifyContainsUrl(driver, "x.com", "Twitter");
         
         System.out.println("=== TC003 Finished ===");
     }
 
-    // TC004: Verify button click dribbble (Status: DEFECT)
+    
     public void TC004_OpeningCuraDribbble(WebDriver driver) {
     	System.out.println("=== Running: TC004_OpeningCuraDribbble ===");
-        driver.get("https://katalon-demo-cura.herokuapp.com/");
+        driver.get(Config.BASE_URL);
         
         HomePage home = new HomePage(driver);
         home.getDribbbleIcon().click();
         
         // Panggil helper untuk Dribbble
-        Helper.verifyCurrentUrl(driver, "dribble.com", "Dribbble");
+        Helper.verifyContainsUrl(driver, "dribble.com", "Dribble");
         
         System.out.println("=== TC004 Finished ===");
     }

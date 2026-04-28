@@ -42,7 +42,23 @@ public class Helper {
         }
     }
 	
-	public static void verifyCurrentUrl(WebDriver driver, String expectedUrl, String platformName) {
+	public static void verifyEqualsUrl(WebDriver driver, String expectedUrl, String platformName) {
+        try {
+        	String actualUrl = driver.getCurrentUrl();
+            if (actualUrl.equals(expectedUrl)) {
+                System.out.println("[PASS] - Redirected to " + platformName + ".");
+            } else {
+                System.out.println("[FAIL] - Not redirected to " + platformName + ".");
+                System.out.println("Actual URL   : " + actualUrl);
+                System.out.println("Expected URL : " + expectedUrl);
+            }
+        }catch(Exception e) {
+        	System.out.println("[FAIL] - Error while verifying URL for " + platformName + ": " + e.getMessage());
+        }
+		
+    }
+	
+	public static void verifyContainsUrl(WebDriver driver, String expectedUrl, String platformName) {
         try {
         	String actualUrl = driver.getCurrentUrl();
             if (actualUrl.contains(expectedUrl)) {
@@ -50,7 +66,7 @@ public class Helper {
             } else {
                 System.out.println("[FAIL] - Not redirected to " + platformName + ".");
                 System.out.println("Actual URL   : " + actualUrl);
-                System.out.println("Expected URL : " + expectedUrl);
+                System.out.println("Expected URL Contains : " + expectedUrl);
             }
         }catch(Exception e) {
         	System.out.println("[FAIL] - Error while verifying URL for " + platformName + ": " + e.getMessage());
