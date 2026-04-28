@@ -18,20 +18,20 @@ public class TestRunner {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		
 		try {
-			HomeTests HomeTest = new HomeTests();
-			DropDownTests DropDownTest = new DropDownTests();
+			HomeTests homeTest = new HomeTests();
+			DropDownTests dropDownTest = new DropDownTests();
 			
-			HomeTest.TC001_VerifyHomePage(driver);
+			homeTest.TC001_VerifyHomePage(driver);
 			System.out.println("-------------------------------------------");
-			HomeTest.TC002_OpeningCuraFacebook(driver);
+			homeTest.TC002_OpeningCuraFacebook(driver);
 			System.out.println("-------------------------------------------");
-			HomeTest.TC003_OpeningCuraTwitter(driver);
+			homeTest.TC003_OpeningCuraTwitter(driver);
 			System.out.println("-------------------------------------------");
-			HomeTest.TC004_OpeningCuraDribbble(driver);
+			homeTest.TC004_OpeningCuraDribbble(driver);
 			System.out.println("-------------------------------------------");
-			DropDownTest.TC005_OpenCURAHomeViaCURAHealthCareButton(driver);
+			dropDownTest.TC005_OpenCURAHomeViaCURAHealthCareButton(driver);
 			System.out.println("-------------------------------------------");
-			DropDownTest.TC006_OpenCURAHomeViaHomeButton(driver);
+			dropDownTest.TC006_OpenCURAHomeViaHomeButton(driver);
 			System.out.println("-------------------------------------------");
 		}catch(Exception e) {
 			System.out.println("Error System : " + e.getMessage());

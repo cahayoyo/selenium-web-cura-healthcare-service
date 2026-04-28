@@ -14,27 +14,27 @@ public class DropDownTests {
         driver.get(Config.BASE_URL);
         System.out.println("Step: Navigate to Login Page first.");
 
-        HomePage HomePage = new HomePage(driver);
-        DropDown DropDown = new DropDown(driver);
+        HomePage homePage = new HomePage(driver);
+        DropDown dropDown = new DropDown(driver);
 
         try {
-        	DropDown.clickMenuToggle();
+        	dropDown.clickMenuToggle();
             System.out.println("Step: Clicked Menu Toggle.");
             
             Thread.sleep(500);
             
-            DropDown.clickLinkCuraHealthCare();
+            dropDown.clickLinkCuraHealthCare();
             System.out.println("Step: Clicked 'CURA Healthcare' brand button.");
         } catch (Exception e) {
             System.out.println("Retrying: Clicking brand button directly...");
-            DropDown.clickMenuToggle();
-            DropDown.clickLinkCuraHealthCare();
+            dropDown.clickMenuToggle();
+            dropDown.clickLinkCuraHealthCare();
         }
 
         String expectedHomeUrl = Config.BASE_URL;
         Helper.verifyEqualsUrl(driver, expectedHomeUrl, "CURA Home via Brand Button");
 
-        Helper.verifyElementEqualsText(HomePage.getH1(), "CURA Healthcare Service", "Header H1 after redirection");
+        Helper.verifyElementEqualsText(homePage.getH1(), "CURA Healthcare Service", "Header H1 after redirection");
 
         System.out.println("=== TC005 Finished ===");
     }
@@ -45,27 +45,27 @@ public class DropDownTests {
 		 driver.get(Config.BASE_URL_LOGIN);
 	        System.out.println("Step: Navigate to Login Page first.");
 
-	        HomePage HomePage = new HomePage(driver);
-	        DropDown DropDown = new DropDown(driver);
+	        HomePage homePage = new HomePage(driver);
+	        DropDown dropDown = new DropDown(driver);
 
 	        try {
-	        	DropDown.clickMenuToggle();
+	        	dropDown.clickMenuToggle();
 	            System.out.println("Step: Clicked Menu Toggle.");
 	            
 	            Thread.sleep(500);
 	            
-	            DropDown.clickLinkHome();
+	            dropDown.clickLinkHome();
 	            System.out.println("Step: Clicked Home button.");
 	        } catch (Exception e) {
 	            System.out.println("Retrying: Clicking home button directly...");
-	            DropDown.clickMenuToggle();
-	            DropDown.clickLinkHome();
+	            dropDown.clickMenuToggle();
+	            dropDown.clickLinkHome();
 	        }
 
 	        String expectedHomeUrl = Config.BASE_URL;
 	        Helper.verifyEqualsUrl(driver, expectedHomeUrl, "CURA Home via Home Button");
 
-	        Helper.verifyElementEqualsText(HomePage.getH1(), "CURA Healthcare Service", "Header H1 after redirection");
+	        Helper.verifyElementEqualsText(homePage.getH1(), "CURA Healthcare Service", "Header H1 after redirection");
 
 	        System.out.println("=== TC006 Finished ===");
 		
