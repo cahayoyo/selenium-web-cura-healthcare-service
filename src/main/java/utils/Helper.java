@@ -8,24 +8,24 @@ public class Helper {
 	public static void verifyElementContainsText(WebElement element, String expectedText, String elementName) {
 		try {
 	        if (element.isDisplayed() && element.getText().contains(expectedText)) {
-	            System.out.println("[PASS] " + elementName + " contains correct info.");
+	            Log.info("[PASS] " + elementName + " contains correct info.");
 	        } else {
-	            System.out.println("[FAIL] " + elementName + " does not contain: " + expectedText + " Actual : " + element.getText());
+	            Log.error("[FAIL] " + elementName + " does not contain: " + expectedText + " Actual : " + element.getText());
 	        }
 	    } catch (Exception e) {
-	        System.out.println("[FAIL] " + elementName + " error: " + e.getMessage());
+	        Log.error("[FAIL] " + elementName + " error: " + e.getMessage());
 	    }
 	}
 	
 	public static void verifyElementEqualsText(WebElement element, String expectedText, String elementName) {
 		try {
 			if (element.isDisplayed() && element.getText().equals(expectedText)) {
-				System.out.println("[PASS] " + elementName + " is correct.");
+				Log.info("[PASS] " + elementName + " is correct.");
 			} else {
-				System.out.println("[FAILED] " + elementName + " is incorrect. Actual : " + element.getText());
+				Log.error("[FAILED] " + elementName + " is incorrect. Actual : " + element.getText());
 			}
 		}catch(Exception e) {
-			System.out.println("[FAIL] " + elementName + " not found or error: " + e.getMessage());
+			Log.error("[FAIL] " + elementName + " not found or error: " + e.getMessage());
 		}
 		
 	}
@@ -33,12 +33,12 @@ public class Helper {
 	public static void verifyElementDisplayed(WebElement element, String elementName) {
         try {
             if (element.isDisplayed()) {
-                System.out.println("[PASS] " + elementName + " is displayed.");
+                Log.info("[PASS] " + elementName + " is displayed.");
             } else {
-                System.out.println("[FAIL] " + elementName + " is NOT displayed.");
+                Log.error("[FAIL] " + elementName + " is NOT displayed.");
             }
         } catch (Exception e) {
-            System.out.println("[FAIL] " + elementName + " not found or error: " + e.getMessage());
+            Log.error("[FAIL] " + elementName + " not found or error: " + e.getMessage());
         }
     }
 	
@@ -46,14 +46,14 @@ public class Helper {
         try {
         	String actualUrl = driver.getCurrentUrl();
             if (actualUrl.equals(expectedUrl)) {
-                System.out.println("[PASS] - Redirected to " + platformName + ".");
+                Log.info("[PASS] - Redirected to " + platformName + ".");
             } else {
-                System.out.println("[FAIL] - Not redirected to " + platformName + ".");
-                System.out.println("Actual URL   : " + actualUrl);
-                System.out.println("Expected URL : " + expectedUrl);
+                Log.error("[FAIL] - Not redirected to " + platformName + ".");
+                Log.error("Actual URL   : " + actualUrl);
+                Log.error("Expected URL : " + expectedUrl);
             }
         }catch(Exception e) {
-        	System.out.println("[FAIL] - Error while verifying URL for " + platformName + ": " + e.getMessage());
+        	Log.error("[FAIL] - Error while verifying URL for " + platformName + ": " + e.getMessage());
         }
 		
     }
@@ -62,14 +62,14 @@ public class Helper {
         try {
         	String actualUrl = driver.getCurrentUrl();
             if (actualUrl.contains(expectedUrl)) {
-                System.out.println("[PASS] - Redirected to " + platformName + ".");
+                Log.info("[PASS] - Redirected to " + platformName + ".");
             } else {
-                System.out.println("[FAIL] - Not redirected to " + platformName + ".");
-                System.out.println("Actual URL   : " + actualUrl);
-                System.out.println("Expected URL Contains : " + expectedUrl);
+                Log.error("[FAIL] - Not redirected to " + platformName + ".");
+                Log.error("Actual URL   : " + actualUrl);
+                Log.error("Expected URL Contains : " + expectedUrl);
             }
         }catch(Exception e) {
-        	System.out.println("[FAIL] - Error while verifying URL for " + platformName + ": " + e.getMessage());
+        	Log.error("[FAIL] - Error while verifying URL for " + platformName + ": " + e.getMessage());
         }
 		
     }

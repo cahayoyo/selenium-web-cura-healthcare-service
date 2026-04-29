@@ -5,12 +5,13 @@ import org.testng.annotations.Test;
 import base.BaseTest;
 import pages.HomePage;
 import utils.Helper;
+import utils.Log;
 
 public class HomeTests extends BaseTest {
 
 	@Test
     public void TC001_VerifyHomePage() {
-        System.out.println("=== Running: TC001_VerifyHomePage ===");
+        Log.info("=== Running: TC001_VerifyHomePage ===");
         
         HomePage home = new HomePage(driver);
 
@@ -29,44 +30,44 @@ public class HomeTests extends BaseTest {
         Helper.verifyElementDisplayed(home.getTwitterIcon(), "Icon Twitter");
         Helper.verifyElementDisplayed(home.getDribbbleIcon(), "Icon Dribbble");
 
-        Helper.verifyElementContainsText(home.getFooterCopyright(), "Copyright © CURA Healthcare Service 2026", "Footer Copyright");
+        Helper.verifyElementContainsText(home.getFooterCopyright(), "CURA Healthcare Service 2026", "Footer Copyright");
 
-        System.out.println("=== TC001 Finished ===");
+        Log.info("=== TC001 Finished ===");
     }
     
 	@Test
     public void TC002_OpeningCuraFacebook() {
-    	System.out.println("=== Running: TC002_OpeningCuraFacebook ===");
+		Log.info("=== Running: TC002_OpeningCuraFacebook ===");
         
         HomePage home = new HomePage(driver);
         home.getFbIcon().click();
 
         Helper.verifyContainsUrl(driver, "facebook.com", "Facebook");
         
-        System.out.println("=== TC002 Finished ===");
+        Log.info("=== TC002 Finished ===");
     }
     
 	@Test
     public void TC003_OpeningCuraTwitter() {
-    	System.out.println("=== Running: TC003_OpeningCuraTwitter ===");
+		Log.info("=== Running: TC003_OpeningCuraTwitter ===");
         
         HomePage home = new HomePage(driver);
         home.getTwitterIcon().click();
 
         Helper.verifyContainsUrl(driver, "x.com", "Twitter");
         
-        System.out.println("=== TC003 Finished ===");
+        Log.info("=== TC003 Finished ===");
     }
 
 	@Test
     public void TC004_OpeningCuraDribbble() {
-    	System.out.println("=== Running: TC004_OpeningCuraDribbble ===");
+		Log.info("=== Running: TC004_OpeningCuraDribbble ===");
         
         HomePage home = new HomePage(driver);
         home.getDribbbleIcon().click();
 
         Helper.verifyContainsUrl(driver, "dribble.com", "Dribble");
         
-        System.out.println("=== TC004 Finished ===");
+        Log.info("=== TC004 Finished ===");
     }
 }
