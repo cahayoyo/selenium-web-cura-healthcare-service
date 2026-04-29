@@ -1,17 +1,19 @@
-package tests.dropdown;
+package tests;
 
-import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
+import base.BaseTest;
 import pages.DropDown;
 import pages.HomePage;
 import utils.Config;
 import utils.Helper;
 
-public class DropDownTests {
-	public void TC005_OpenCURAHomeViaCURAHealthCareButton(WebDriver driver) {
+public class DropDownTests extends BaseTest {
+	
+	@Test
+	public void TC005_OpenCURAHomeViaCURAHealthCareButton() {
         System.out.println("=== Running: TC005_Open CURA Home via CURA Healthcare button ===");
         
-        driver.get(Config.BASE_URL);
         System.out.println("Step: Navigate to Login Page first.");
 
         HomePage homePage = new HomePage(driver);
@@ -39,10 +41,10 @@ public class DropDownTests {
         System.out.println("=== TC005 Finished ===");
     }
 	
-	public void TC006_OpenCURAHomeViaHomeButton(WebDriver driver) {
+	@Test
+	public void TC006_OpenCURAHomeViaHomeButton() {
 		System.out.println("=== Running: TC006_Open CURA Home via Home button ===");
 		
-		 driver.get(Config.BASE_URL_LOGIN);
 	        System.out.println("Step: Navigate to Login Page first.");
 
 	        HomePage homePage = new HomePage(driver);
