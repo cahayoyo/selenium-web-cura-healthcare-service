@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import utils.Config;
+import utils.Helper;
+
 public class LoginPage {
 	WebDriver driver;
 	
@@ -30,4 +33,29 @@ public class LoginPage {
 	public WebElement getButtonLogin() { return driver.findElement(buttonLogin); }
 	
 	public void clickButtonLogin() { getButtonLogin().click();  }
+	
+	public void verifyLoginPage() {
+		String expectedHomeUrl = Config.BASE_URL_LOGIN;
+		Helper.verifyEqualsUrl(driver, expectedHomeUrl, "Login via Login button Sidebar");
+
+		Helper.verifyElementEqualsText(geth2Login(), "Login", "Header H2 Login");
+		
+		Helper.verifyElementEqualsText(getLabelUsername(), "Username", "Label Username");
+		Helper.verifyElementEqualsText(getLabelPassword(), "Password", "Label Password");
+		Helper.verifyElementDisplayed(getInputUsername(), "Input Username");
+		Helper.verifyElementDisplayed(getInputPassword(), "Input Password");
+		
+		Helper.verifyElementEqualsText(getButtonLogin(), "Login", "Button Login");
+		Helper.verifyElementDisplayed(getButtonLogin(), "Button Login");
+	}
+	
+	public void login(String username, String password) {
+		getInputUsername().clear();
+		getInputUsername().sendKeys(username);
+		
+		getInputPassword().clear();
+		getInputPassword().sendKeys(password);
+		
+		getButtonLogin().click();
+	}
 }

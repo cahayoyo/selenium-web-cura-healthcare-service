@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import utils.Helper;
+import utils.Log;
+
 public class DropDown {
 	WebDriver driver;
 	
@@ -34,6 +37,56 @@ public class DropDown {
     public void clickLinkHistory() { getLinkHistory().click(); }
     public void clickLinkProfile() { getLinkProfile().click(); }
     public void clickLinkLogout() { getLinkLogout().click(); }
+    
+    public void goToHomeViaLinkCura() {
+    	Helper.waitClickable(driver, getMenuToggle(), 5);
+    	Log.info("Step: Clicked Menu Toggle.");
+    	clickMenuToggle();
+    	
+    	Helper.waitClickable(driver, getLinkCuraHealthCare(), 5);
+    	Log.info("Step: Clicked Link Cura HealthCare.");
+    	clickLinkCuraHealthCare();
+    }
+    
+    public void goToHomeViaHomeButton() {
+    	Helper.waitClickable(driver, getMenuToggle(), 5);
+    	Log.info("Step: Clicked Menu Toggle.");
+    	clickMenuToggle();
+    	
+    	Helper.waitClickable(driver, getLinkHome(), 5);
+    	Log.info("Step: Clicked Home button.");
+    	clickLinkHome();
+    }
+    
+    public void goToHistory() {
+    	Helper.waitClickable(driver, getMenuToggle(), 5);
+    	Log.info("Step: Clicked Menu Toggle.");
+    	clickMenuToggle();
+    	
+    	Helper.waitClickable(driver, getLinkHistory(), 5);
+    	Log.info("Step: Clicked Profile button.");
+    	clickLinkHistory();
+    }
+    
+    public void goToProfile() {
+    	Helper.waitClickable(driver, getMenuToggle(), 5);
+    	Log.info("Step: Clicked Menu Toggle.");
+    	clickMenuToggle();
+    	
+    	Helper.waitClickable(driver, getLinkProfile(), 5);
+    	Log.info("Step: Clicked Profile button.");
+    	clickLinkProfile();
+    }
+    
+    public void goToLoginPage() {
+    	Helper.waitClickable(driver, getMenuToggle(), 5);
+    	Log.info("Step: Clicked Menu Toggle.");
+    	clickMenuToggle();
+    	
+    	Helper.waitClickable(driver, getLinkLogin(), 5);
+    	Log.info("Step: Clicked Login button.");
+    	clickLinkLogin();
+    }
     
 }
 

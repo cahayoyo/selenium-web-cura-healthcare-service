@@ -1,88 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-29T18:38:44 WIB" name="Default suite" finished-at="2026-04-29T18:38:49 WIB" duration-ms="5171">
+  <suite started-at="2026-04-29T20:37:53 WIB" name="Default suite" finished-at="2026-04-29T20:38:26 WIB" duration-ms="32426">
     <groups>
     </groups>
-    <test started-at="2026-04-29T18:38:44 WIB" name="Default test" finished-at="2026-04-29T18:38:49 WIB" duration-ms="5171">
+    <test started-at="2026-04-29T20:37:53 WIB" name="Default test" finished-at="2026-04-29T20:38:26 WIB" duration-ms="32426">
       <class name="tests.DropDownTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropDownTests@235834f2]" started-at="2026-04-29T18:38:44 WIB" name="setUp" finished-at="2026-04-29T18:38:48 WIB" duration-ms="4404" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:37:53 WIB" name="setUp" finished-at="2026-04-29T20:38:03 WIB" duration-ms="10104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC024_OpenProfileViaProfileButton()[pri:0, instance:tests.DropDownTests@235834f2]" started-at="2026-04-29T18:38:48 WIB" name="TC024_OpenProfileViaProfileButton" finished-at="2026-04-29T18:38:49 WIB" duration-ms="611" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Profile']"}
-  (Session info: chrome=147.0.7727.102)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3513e8546d6675cd02f2dc477e77ec72, findElement {using=xpath, value=//a[normalize-space()='Profile']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51708}, goog:processID: 7260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51708/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3513e8546d6675cd02f2dc477e77ec72]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Profile']"}
-  (Session info: chrome=147.0.7727.102)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3513e8546d6675cd02f2dc477e77ec72, findElement {using=xpath, value=//a[normalize-space()='Profile']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51708}, goog:processID: 7260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51708/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3513e8546d6675cd02f2dc477e77ec72
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
-at pages.DropDown.getLinkProfile(DropDown.java:27)
-at pages.DropDown.clickLinkProfile(DropDown.java:35)
-at tests.DropDownTests.TC024_OpenProfileViaProfileButton(DropDownTests.java:157)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="TC005_OpenCURAHomeViaCURAHealthCareButton()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:03 WIB" name="TC005_OpenCURAHomeViaCURAHealthCareButton" finished-at="2026-04-29T20:38:04 WIB" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_OpenCURAHomeViaCURAHealthCareButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:04 WIB" name="tearDown" finished-at="2026-04-29T20:38:04 WIB" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:04 WIB" name="setUp" finished-at="2026-04-29T20:38:08 WIB" duration-ms="3902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC006_OpenCURAHomeViaHomeButton()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:08 WIB" name="TC006_OpenCURAHomeViaHomeButton" finished-at="2026-04-29T20:38:08 WIB" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC006_OpenCURAHomeViaHomeButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:08 WIB" name="tearDown" finished-at="2026-04-29T20:38:09 WIB" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:09 WIB" name="setUp" finished-at="2026-04-29T20:38:12 WIB" duration-ms="3822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC007_OpenLoginViaLoginButton()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:12 WIB" name="TC007_OpenLoginViaLoginButton" finished-at="2026-04-29T20:38:13 WIB" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC007_OpenLoginViaLoginButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:13 WIB" name="tearDown" finished-at="2026-04-29T20:38:14 WIB" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:14 WIB" name="setUp" finished-at="2026-04-29T20:38:17 WIB" duration-ms="3689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC023_OpenHistoryViaHistoryButton()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:17 WIB" name="TC023_OpenHistoryViaHistoryButton" finished-at="2026-04-29T20:38:19 WIB" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC023_OpenHistoryViaHistoryButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:19 WIB" name="tearDown" finished-at="2026-04-29T20:38:19 WIB" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:19 WIB" name="setUp" finished-at="2026-04-29T20:38:23 WIB" duration-ms="3892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC024_OpenProfileViaProfileButton()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:23 WIB" name="TC024_OpenProfileViaProfileButton" finished-at="2026-04-29T20:38:25 WIB" duration-ms="2119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC024_OpenProfileViaProfileButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropDownTests@235834f2]" started-at="2026-04-29T18:38:49 WIB" name="tearDown" finished-at="2026-04-29T18:38:49 WIB" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropDownTests@47eaca72]" started-at="2026-04-29T20:38:25 WIB" name="tearDown" finished-at="2026-04-29T20:38:26 WIB" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

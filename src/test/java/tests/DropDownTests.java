@@ -24,17 +24,10 @@ public class DropDownTests extends BaseTest {
 		DropDown dropDown = new DropDown(driver);
 
 		try {
-			dropDown.clickMenuToggle();
-			Log.info("Step: Clicked Menu Toggle.");
-
-			Thread.sleep(500);
-
-			dropDown.clickLinkCuraHealthCare();
-			Log.info("Step: Clicked 'CURA Healthcare' brand button.");
+			dropDown.goToHomeViaLinkCura();
 		} catch (Exception e) {
 			Log.error("Retrying: Clicking brand button directly...");
-			dropDown.clickMenuToggle();
-			dropDown.clickLinkCuraHealthCare();
+			dropDown.goToHomeViaLinkCura();
 		}
 
 		String expectedHomeUrl = Config.BASE_URL;
@@ -54,17 +47,10 @@ public class DropDownTests extends BaseTest {
 		DropDown dropDown = new DropDown(driver);
 
 		try {
-			dropDown.clickMenuToggle();
-			Log.info("Step: Clicked Menu Toggle.");
-
-			Thread.sleep(500);
-
-			dropDown.clickLinkHome();
-			Log.info("Step: Clicked Home button.");
+			dropDown.goToHomeViaHomeButton();
 		} catch (Exception e) {
 			Log.error("Retrying: Clicking home button directly...");
-			dropDown.clickMenuToggle();
-			dropDown.clickLinkHome();
+			dropDown.goToHomeViaHomeButton();
 		}
 
 		String expectedHomeUrl = Config.BASE_URL;
@@ -77,24 +63,17 @@ public class DropDownTests extends BaseTest {
 	}
 	
 	@Test
-	public void TC007_OpenLoginViaLoginButton() {
+	public void TC007_OpenLoginViaLoginButton() { 
 		Log.info("=== Running: TC007_Open Login via Login button ===");
 
 		DropDown dropDown = new DropDown(driver);
 		LoginPage login = new LoginPage(driver);
 
 		try {
-			dropDown.clickMenuToggle();
-			Log.info("Step: Clicked Menu Toggle.");
-
-			Thread.sleep(500);
-
-			dropDown.clickLinkLogin();
-			Log.info("Step: Clicked Login button.");
+			dropDown.goToLoginPage();
 		} catch (Exception e) {
 			Log.error("Retrying: Clicking login button directly...");
-			dropDown.clickMenuToggle();
-			dropDown.clickLinkLogin();
+			dropDown.goToLoginPage();
 		}
 
 		String expectedHomeUrl = Config.BASE_URL_LOGIN;
@@ -109,22 +88,35 @@ public class DropDownTests extends BaseTest {
 	@Test
 	public void TC023_OpenHistoryViaHistoryButton() {
 		Log.info("=== Running: TC023_Open History via History button ===");
-
+		
 		DropDown dropDown = new DropDown(driver);
-		HistoryPage history = new HistoryPage(driver); 
+		LoginPage login = new LoginPage(driver);
+		HistoryPage history = new HistoryPage(driver);
 
 		try {
-			dropDown.clickMenuToggle();
-			Log.info("Step: Clicked Menu Toggle.");
+			dropDown.goToLoginPage();
+		} catch (Exception e) {
+			Log.error("Retrying: Clicking login button directly...");
+			dropDown.goToLoginPage();
+		}
 
-			Thread.sleep(500);
+		login.verifyLoginPage();
+		
+		try {
+			login.login(Config.USERNAME, Config.PASSWORD);
+			
+			Helper.waitUrlContains(driver, "#appointment", 10);
+			
+			Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
+		}catch(Exception e) {
+			Log.error("error");
+		}
 
-			dropDown.clickLinkHistory();
-			Log.info("Step: Clicked History button.");
+		try {
+			dropDown.goToHistory();
 		} catch (Exception e) {
 			Log.error("Retrying: Clicking history button directly...");
-			dropDown.clickMenuToggle();
-			dropDown.clickLinkHistory();
+			dropDown.goToHistory();
 		}
 
 		String expectedHomeUrl = Config.BASE_URL_HISTORY;
@@ -139,22 +131,35 @@ public class DropDownTests extends BaseTest {
 	@Test
 	public void TC024_OpenProfileViaProfileButton() {
 		Log.info("=== Running: TC024_Open Profile via Profile button ===");
-
+		
 		DropDown dropDown = new DropDown(driver);
+		LoginPage login = new LoginPage(driver);
 		ProfilePage profile = new ProfilePage(driver); 
 
 		try {
-			dropDown.clickMenuToggle();
-			Log.info("Step: Clicked Menu Toggle.");
+			dropDown.goToLoginPage();
+		} catch (Exception e) {
+			Log.error("Retrying: Clicking login button directly...");
+			dropDown.goToLoginPage();
+		}
 
-			Thread.sleep(500);
+		login.verifyLoginPage();
+		
+		try {
+			login.login(Config.USERNAME, Config.PASSWORD);
+			
+			Helper.waitUrlContains(driver, "#appointment", 10);
+			
+			Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
+		}catch(Exception e) {
+			Log.error("error");
+		}
 
-			dropDown.clickLinkProfile();
-			Log.info("Step: Clicked Profile button.");
+		try {
+			dropDown.goToProfile();
 		} catch (Exception e) {
 			Log.error("Retrying: Clicking profile button directly...");
-			dropDown.clickMenuToggle();
-			dropDown.clickLinkProfile();
+			dropDown.goToProfile();
 		}
 
 		String expectedHomeUrl = Config.BASE_URL_PROFILE;

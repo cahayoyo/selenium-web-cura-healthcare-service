@@ -3,16 +3,13 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="tests.HomeTests">
+      <class name="tests.DropDownTests">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="TC001_VerifyHomePage"/>
-          <include name="TC004_OpeningCuraDribbble"/>
-          <include name="TC003_OpeningCuraTwitter"/>
-          <include name="TC002_OpeningCuraFacebook"/>
+          <include name="TC023_OpenHistoryViaHistoryButton"/>
         </methods>
-      </class> <!-- tests.HomeTests -->
+      </class> <!-- tests.DropDownTests -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
