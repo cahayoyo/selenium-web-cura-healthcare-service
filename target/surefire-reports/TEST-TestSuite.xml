@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="77.392" tests="12" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="108.123" tests="17" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\cahay\AppData\Local\Temp\surefire7660914447725408106\surefirebooter-20260430132055041_3.jar C:\Users\cahay\AppData\Local\Temp\surefire7660914447725408106 2026-04-30T13-20-54_911-jvmRun1 surefire-20260430132055041_1tmp surefire_0-20260430132055041_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\cahay\AppData\Local\Temp\surefire15278409312091461915\surefirebooter-20260430135136575_3.jar C:\Users\cahay\AppData\Local\Temp\surefire15278409312091461915 2026-04-30T13-51-36_451-jvmRun1 surefire-20260430135136575_1tmp surefire_0-20260430135136575_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\cahay\eclipse-workspace\CURAHealthcareServiceTest\target\test-classes;C:\Users\cahay\eclipse-workspace\CURAHealthcareServiceTest\target\classes;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-java\4.43.0\selenium-java-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-api\4.43.0\selenium-api-4.43.0.jar;C:\Users\cahay\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.43.0\selenium-chrome-driver-4.43.0.jar;C:\Users\cahay\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.43.0\selenium-chromium-driver-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-json\4.43.0\selenium-json-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.43.0\selenium-manager-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.43.0\selenium-devtools-v145-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.43.0\selenium-devtools-v146-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.43.0\selenium-devtools-v147-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.43.0\selenium-edge-driver-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.43.0\selenium-firefox-driver-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-http\4.43.0\selenium-http-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.43.0\selenium-ie-driver-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.43.0\selenium-remote-driver-4.43.0.jar;C:\Users\cahay\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\cahay\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\cahay\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\cahay\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\cahay\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\cahay\.m2\repository\io\opentelemetry\opentelemetry-api\1.60.1\opentelemetry-api-1.60.1.jar;C:\Users\cahay\.m2\repository\io\opentelemetry\opentelemetry-context\1.60.1\opentelemetry-context-1.60.1.jar;C:\Users\cahay\.m2\repository\io\opentelemetry\opentelemetry-common\1.60.1\opentelemetry-common-1.60.1.jar;C:\Users\cahay\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.60.1\opentelemetry-exporter-logging-1.60.1.jar;C:\Users\cahay\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.60.1\opentelemetry-sdk-common-1.60.1.jar;C:\Users\cahay\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.60.1\opentelemetry-sdk-extension-autoconfigure-spi-1.60.1.jar;C:\Users\cahay\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.60.1\opentelemetry-sdk-extension-autoconfigure-1.60.1.jar;C:\Users\cahay\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.60.1\opentelemetry-sdk-trace-1.60.1.jar;C:\Users\cahay\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.60.1\opentelemetry-sdk-1.60.1.jar;C:\Users\cahay\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.60.1\opentelemetry-sdk-metrics-1.60.1.jar;C:\Users\cahay\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.60.1\opentelemetry-sdk-logs-1.60.1.jar;C:\Users\cahay\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-os\4.43.0\selenium-os-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.43.0\selenium-safari-driver-4.43.0.jar;C:\Users\cahay\.m2\repository\org\seleniumhq\selenium\selenium-support\4.43.0\selenium-support-4.43.0.jar;C:\Users\cahay\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\cahay\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\cahay\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\cahay\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\cahay\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.4\log4j-core-2.25.4.jar;C:\Users\cahay\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.4\log4j-api-2.25.4.jar;C:\Users\cahay\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\cahay\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\cahay\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\cahay\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\cahay\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\cahay\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\cahay\.m2\repository\commons-io\commons-io\2.22.0\commons-io-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\cahay\AppData\Local\Temp\surefire7660914447725408106\surefirebooter-20260430132055041_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cahay\AppData\Local\Temp\surefire15278409312091461915\surefirebooter-20260430135136575_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.16+12-LTS-247"/>
@@ -57,213 +57,381 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="TC008_VerifyLoginPage" classname="tests.AuthTests" time="0.728">
-    <system-out><![CDATA[2026-04-30 13:20:55 [main] INFO  Log - === Starting WebDriver ===
-2026-04-30 13:21:00 [main] INFO  Log - === Browser Opened ===
-2026-04-30 13:21:00 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
-2026-04-30 13:21:00 [main] INFO  Log - === Running: TC008_Verify Login Page ===
-2026-04-30 13:21:00 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:00 [main] INFO  Log - Step: Clicked Login button.
-2026-04-30 13:21:00 [main] INFO  Log - [PASS] - Redirected to Login URL.
-2026-04-30 13:21:00 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:00 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
-2026-04-30 13:21:00 [main] INFO  Log - [PASS] Header H2 Login is correct.
-2026-04-30 13:21:00 [main] INFO  Log - [PASS] Label Username is correct.
-2026-04-30 13:21:01 [main] INFO  Log - [PASS] Label Password is correct.
-2026-04-30 13:21:01 [main] INFO  Log - [PASS] Input Username is displayed.
-2026-04-30 13:21:01 [main] INFO  Log - [PASS] Input Password is displayed.
-2026-04-30 13:21:01 [main] INFO  Log - [PASS] Button Login is correct.
-2026-04-30 13:21:01 [main] INFO  Log - [PASS] Button Login is displayed.
-2026-04-30 13:21:01 [main] INFO  Log - === TC008 Finished ===
+  <testcase name="TC008_VerifyLoginPage" classname="tests.AuthTests" time="0.817">
+    <system-out><![CDATA[2026-04-30 13:51:37 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:51:42 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:51:42 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:51:42 [main] INFO  Log - === Running: TC008_Verify Login Page ===
+2026-04-30 13:51:42 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:51:42 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:51:42 [main] INFO  Log - === TC008_VerifyLoginPage Finished ===
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-2026-04-30T06:20:55.986211Z main INFO Starting configuration XmlConfiguration[location=C:\Users\cahay\eclipse-workspace\CURAHealthcareServiceTest\target\classes\log4j2.xml, lastModified=2026-04-29T07:08:04.278Z]...
-2026-04-30T06:20:55.987211600Z main INFO Configuration XmlConfiguration[location=C:\Users\cahay\eclipse-workspace\CURAHealthcareServiceTest\target\classes\log4j2.xml, lastModified=2026-04-29T07:08:04.278Z] started.
-2026-04-30T06:20:55.989213100Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@76884e4b...
-2026-04-30T06:20:55.989213100Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@76884e4b stopped.
+2026-04-30T06:51:37.579370700Z main INFO Starting configuration XmlConfiguration[location=C:\Users\cahay\eclipse-workspace\CURAHealthcareServiceTest\target\classes\log4j2.xml, lastModified=2026-04-29T07:08:04.278Z]...
+2026-04-30T06:51:37.580368500Z main INFO Configuration XmlConfiguration[location=C:\Users\cahay\eclipse-workspace\CURAHealthcareServiceTest\target\classes\log4j2.xml, lastModified=2026-04-29T07:08:04.278Z] started.
+2026-04-30T06:51:37.581370200Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@35229f85...
+2026-04-30T06:51:37.581370200Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@35229f85 stopped.
 ]]></system-err>
   </testcase>
-  <testcase name="TC009_LoginSuccess" classname="tests.AuthTests" time="1.485">
-    <system-out><![CDATA[2026-04-30 13:21:01 [main] INFO  Log - === Browser Closed ===
-2026-04-30 13:21:01 [main] INFO  Log - === Starting WebDriver ===
-2026-04-30 13:21:04 [main] INFO  Log - === Browser Opened ===
-2026-04-30 13:21:04 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
-2026-04-30 13:21:04 [main] INFO  Log - === Running: TC009_Login Success ===
-2026-04-30 13:21:04 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:05 [main] INFO  Log - Step: Clicked Login button.
-2026-04-30 13:21:05 [main] INFO  Log - [PASS] - Redirected to Login URL.
-2026-04-30 13:21:05 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:05 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
-2026-04-30 13:21:05 [main] INFO  Log - [PASS] Header H2 Login is correct.
-2026-04-30 13:21:05 [main] INFO  Log - [PASS] Label Username is correct.
-2026-04-30 13:21:05 [main] INFO  Log - [PASS] Label Password is correct.
-2026-04-30 13:21:05 [main] INFO  Log - [PASS] Input Username is displayed.
-2026-04-30 13:21:05 [main] INFO  Log - [PASS] Input Password is displayed.
-2026-04-30 13:21:05 [main] INFO  Log - [PASS] Button Login is correct.
-2026-04-30 13:21:05 [main] INFO  Log - [PASS] Button Login is displayed.
-2026-04-30 13:21:06 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
-2026-04-30 13:21:06 [main] INFO  Log - === TC009 Finished ===
+  <testcase name="TC009_LoginSuccess" classname="tests.AuthTests" time="1.572">
+    <system-out><![CDATA[2026-04-30 13:51:43 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:51:43 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:51:46 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:51:46 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:51:46 [main] INFO  Log - === Running: TC009_Login Success ===
+2026-04-30 13:51:46 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:51:46 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:51:48 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:51:48 [main] INFO  Log - === TC009_LoginSuccess Finished ===
 ]]></system-out>
   </testcase>
-  <testcase name="TC010_LogoutSuccess" classname="tests.AuthTests" time="2.302">
-    <system-out><![CDATA[2026-04-30 13:21:06 [main] INFO  Log - === Browser Closed ===
-2026-04-30 13:21:06 [main] INFO  Log - === Starting WebDriver ===
-2026-04-30 13:21:10 [main] INFO  Log - === Browser Opened ===
-2026-04-30 13:21:10 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
-2026-04-30 13:21:10 [main] INFO  Log - === Running: TC010_Logout Success ===
-2026-04-30 13:21:10 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:10 [main] INFO  Log - Step: Clicked Login button.
-2026-04-30 13:21:11 [main] INFO  Log - [PASS] - Redirected to Login URL.
-2026-04-30 13:21:11 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:11 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
-2026-04-30 13:21:11 [main] INFO  Log - [PASS] Header H2 Login is correct.
-2026-04-30 13:21:11 [main] INFO  Log - [PASS] Label Username is correct.
-2026-04-30 13:21:11 [main] INFO  Log - [PASS] Label Password is correct.
-2026-04-30 13:21:11 [main] INFO  Log - [PASS] Input Username is displayed.
-2026-04-30 13:21:11 [main] INFO  Log - [PASS] Input Password is displayed.
-2026-04-30 13:21:11 [main] INFO  Log - [PASS] Button Login is correct.
-2026-04-30 13:21:11 [main] INFO  Log - [PASS] Button Login is displayed.
-2026-04-30 13:21:12 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
-2026-04-30 13:21:12 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:12 [main] INFO  Log - Step: Clicked Logout button.
-2026-04-30 13:21:12 [main] INFO  Log - [PASS] - Redirected to Home URL.
-2026-04-30 13:21:12 [main] ERROR Log - [FAIL] Header H1 after redirection not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:12 [main] INFO  Log - === TC010 Finished ===
+  <testcase name="TC010_LogoutSuccess" classname="tests.AuthTests" time="2.335">
+    <system-out><![CDATA[2026-04-30 13:51:48 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:51:48 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:51:52 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:51:52 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:51:52 [main] INFO  Log - === Running: TC010_Logout Success ===
+2026-04-30 13:51:52 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:51:52 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:51:54 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:51:54 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:51:54 [main] INFO  Log - Step: Clicked Logout button.
+2026-04-30 13:51:55 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:51:55 [main] INFO  Log - [PASS] Header H1 after redirection is correct.
+2026-04-30 13:51:55 [main] INFO  Log - === TC010_LogoutSuccess Finished ===
 ]]></system-out>
   </testcase>
-  <testcase name="TC005_OpenCURAHomeViaCURAHealthCareButton" classname="tests.DropDownTests" time="1.364">
-    <system-out><![CDATA[2026-04-30 13:21:12 [main] INFO  Log - === Browser Closed ===
-2026-04-30 13:21:12 [main] INFO  Log - === Starting WebDriver ===
-2026-04-30 13:21:17 [main] INFO  Log - === Browser Opened ===
-2026-04-30 13:21:17 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
-2026-04-30 13:21:17 [main] INFO  Log - === Running: TC005_Open CURA Home via CURA Healthcare button ===
-2026-04-30 13:21:17 [main] INFO  Log - Step: Navigate to Login Page first.
-2026-04-30 13:21:17 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:17 [main] INFO  Log - Step: Clicked Login button.
-2026-04-30 13:21:17 [main] INFO  Log - [PASS] - Redirected to Login URL.
-2026-04-30 13:21:17 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:17 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:17 [main] INFO  Log - Step: Clicked Link Cura HealthCare.
-2026-04-30 13:21:18 [main] INFO  Log - [PASS] - Redirected to Home URL.
-2026-04-30 13:21:18 [main] ERROR Log - [FAIL] Header H1 after redirection not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:18 [main] INFO  Log - === TC005 Finished ===
+  <testcase name="TC011_LoginFailedWrongUsername" classname="tests.AuthTests" time="1.629">
+    <system-out><![CDATA[2026-04-30 13:51:55 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:51:55 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:51:59 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:51:59 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:51:59 [main] INFO  Log - === Running: TC011_LoginFailedWrongUsername Success ===
+2026-04-30 13:51:59 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:51:59 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:00 [main] INFO  Log - [PASS] H2 Warning Login Failed is displayed.
+2026-04-30 13:52:00 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:52:00 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:00 [main] INFO  Log - === TC011_LoginFailedWrongUsername Finished ===
 ]]></system-out>
   </testcase>
-  <testcase name="TC006_OpenCURAHomeViaHomeButton" classname="tests.DropDownTests" time="0.97">
-    <system-out><![CDATA[2026-04-30 13:21:18 [main] INFO  Log - === Browser Closed ===
-2026-04-30 13:21:18 [main] INFO  Log - === Starting WebDriver ===
-2026-04-30 13:21:22 [main] INFO  Log - === Browser Opened ===
-2026-04-30 13:21:22 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
-2026-04-30 13:21:22 [main] INFO  Log - === Running: TC006_Open CURA Home via Home button ===
-2026-04-30 13:21:22 [main] INFO  Log - Step: Navigate to Login Page first.
-2026-04-30 13:21:22 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:22 [main] INFO  Log - Step: Clicked Login button.
-2026-04-30 13:21:23 [main] INFO  Log - [PASS] - Redirected to Login URL.
-2026-04-30 13:21:23 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:23 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:23 [main] INFO  Log - Step: Clicked Home button.
-2026-04-30 13:21:23 [main] INFO  Log - [PASS] - Redirected to Home URL.
-2026-04-30 13:21:23 [main] ERROR Log - [FAIL] Header H1 after redirection not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:23 [main] INFO  Log - === TC006 Finished ===
+  <testcase name="TC012_LoginFailedWrongPassword" classname="tests.AuthTests" time="1.529">
+    <system-out><![CDATA[2026-04-30 13:52:00 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:00 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:04 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:04 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:04 [main] INFO  Log - === Running: TC012_LoginFailedWrongPassword Success ===
+2026-04-30 13:52:04 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:04 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:06 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43b74e2c01ead75426687bb5812c5adb, findElement {value=//p[@class='lead text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:21838}, goog:processID: 3708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:21838/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43b74e2c01ead75426687bb5812c5adb
+2026-04-30 13:52:06 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:52:06 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:06 [main] INFO  Log - === TC012_LoginFailedWrongPassword Finished ===
 ]]></system-out>
   </testcase>
-  <testcase name="TC007_OpenLoginViaLoginButton" classname="tests.DropDownTests" time="0.547">
-    <system-out><![CDATA[2026-04-30 13:21:23 [main] INFO  Log - === Browser Closed ===
-2026-04-30 13:21:23 [main] INFO  Log - === Starting WebDriver ===
-2026-04-30 13:21:28 [main] INFO  Log - === Browser Opened ===
-2026-04-30 13:21:28 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
-2026-04-30 13:21:28 [main] INFO  Log - === Running: TC007_Open Login via Login button ===
-2026-04-30 13:21:28 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:28 [main] INFO  Log - Step: Clicked Login button.
-2026-04-30 13:21:29 [main] INFO  Log - [PASS] - Redirected to Login URL.
-2026-04-30 13:21:29 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:29 [main] INFO  Log - === TC007 Finished ===
+  <testcase name="TC013_LoginFailedEmptyUsername" classname="tests.AuthTests" time="1.525">
+    <system-out><![CDATA[2026-04-30 13:52:06 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:06 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:09 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:09 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:09 [main] INFO  Log - === Running: TC013_LoginFailedEmptyUsername Success ===
+2026-04-30 13:52:10 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:10 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:10 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9ede56cd79d2a78bc72f6e331c9b15e, findElement {value=//p[@class='lead text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6636}, goog:processID: 14776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6636/devtool..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9ede56cd79d2a78bc72f6e331c9b15e
+2026-04-30 13:52:11 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9ede56cd79d2a78bc72f6e331c9b15e, findElement {value=//p[@class='lead text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6636}, goog:processID: 14776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6636/devtool..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9ede56cd79d2a78bc72f6e331c9b15e
+2026-04-30 13:52:11 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:11 [main] INFO  Log - === TC013_LoginFailedEmptyUsername Finished ===
 ]]></system-out>
   </testcase>
-  <testcase name="TC023_OpenHistoryViaHistoryButton" classname="tests.DropDownTests" time="1.874">
-    <system-out><![CDATA[2026-04-30 13:21:29 [main] INFO  Log - === Browser Closed ===
-2026-04-30 13:21:29 [main] INFO  Log - === Starting WebDriver ===
-2026-04-30 13:21:32 [main] INFO  Log - === Browser Opened ===
-2026-04-30 13:21:32 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
-2026-04-30 13:21:32 [main] INFO  Log - === Running: TC023_Open History via History button ===
-2026-04-30 13:21:32 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:32 [main] INFO  Log - Step: Clicked Login button.
-2026-04-30 13:21:33 [main] INFO  Log - [PASS] - Redirected to Login URL.
-2026-04-30 13:21:33 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:33 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
-2026-04-30 13:21:33 [main] INFO  Log - [PASS] Header H2 Login is correct.
-2026-04-30 13:21:33 [main] INFO  Log - [PASS] Label Username is correct.
-2026-04-30 13:21:33 [main] INFO  Log - [PASS] Label Password is correct.
-2026-04-30 13:21:33 [main] INFO  Log - [PASS] Input Username is displayed.
-2026-04-30 13:21:33 [main] INFO  Log - [PASS] Input Password is displayed.
-2026-04-30 13:21:33 [main] INFO  Log - [PASS] Button Login is correct.
-2026-04-30 13:21:33 [main] INFO  Log - [PASS] Button Login is displayed.
-2026-04-30 13:21:34 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
-2026-04-30 13:21:34 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:34 [main] INFO  Log - Step: Clicked History button.
-2026-04-30 13:21:34 [main] INFO  Log - [PASS] - Redirected to History URL.
-2026-04-30 13:21:34 [main] ERROR Log - [FAIL] Header H2 History not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:34 [main] INFO  Log - === TC023 Finished ===
+  <testcase name="TC014_LoginFailedEmptyPassword" classname="tests.AuthTests" time="1.505">
+    <system-out><![CDATA[2026-04-30 13:52:11 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:11 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:15 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:15 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:15 [main] INFO  Log - === Running: TC014_LoginFailedEmptyPassword Success ===
+2026-04-30 13:52:15 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:15 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:16 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7753f4ca68bc642c2aeac59a602cb28a, findElement {value=//p[@class='lead text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:28869}, goog:processID: 19192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:28869/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7753f4ca68bc642c2aeac59a602cb28a
+2026-04-30 13:52:17 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:52:17 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:17 [main] INFO  Log - === TC014_LoginFailedEmptyPassword Finished ===
 ]]></system-out>
   </testcase>
-  <testcase name="TC024_OpenProfileViaProfileButton" classname="tests.DropDownTests" time="1.871">
-    <system-out><![CDATA[2026-04-30 13:21:34 [main] INFO  Log - === Browser Closed ===
-2026-04-30 13:21:34 [main] INFO  Log - === Starting WebDriver ===
-2026-04-30 13:21:38 [main] INFO  Log - === Browser Opened ===
-2026-04-30 13:21:38 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
-2026-04-30 13:21:38 [main] INFO  Log - === Running: TC024_Open Profile via Profile button ===
-2026-04-30 13:21:38 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:38 [main] INFO  Log - Step: Clicked Login button.
-2026-04-30 13:21:38 [main] INFO  Log - [PASS] - Redirected to Login URL.
-2026-04-30 13:21:38 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:38 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
-2026-04-30 13:21:38 [main] INFO  Log - [PASS] Header H2 Login is correct.
-2026-04-30 13:21:39 [main] INFO  Log - [PASS] Label Username is correct.
-2026-04-30 13:21:39 [main] INFO  Log - [PASS] Label Password is correct.
-2026-04-30 13:21:39 [main] INFO  Log - [PASS] Input Username is displayed.
-2026-04-30 13:21:39 [main] INFO  Log - [PASS] Input Password is displayed.
-2026-04-30 13:21:39 [main] INFO  Log - [PASS] Button Login is correct.
-2026-04-30 13:21:39 [main] INFO  Log - [PASS] Button Login is displayed.
-2026-04-30 13:21:39 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
-2026-04-30 13:21:39 [main] INFO  Log - Step: Clicked Menu Toggle.
-2026-04-30 13:21:39 [main] INFO  Log - Step: Clicked Profile button.
-2026-04-30 13:21:40 [main] INFO  Log - [PASS] - Redirected to Profile URL.
-2026-04-30 13:21:40 [main] ERROR Log - [FAIL] Header H2 Profile not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-04-30 13:21:40 [main] INFO  Log - === TC024 Finished ===
+  <testcase name="TC015_LoginFailedEmptyCredentials" classname="tests.AuthTests" time="1.509">
+    <system-out><![CDATA[2026-04-30 13:52:17 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:17 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:21 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:21 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:21 [main] INFO  Log - === Running: TC015_LoginFailedEmptyCredentials Success ===
+2026-04-30 13:52:21 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:21 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:22 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [56892ff9ca023d83a49481fe6ab57a15, findElement {value=//p[@class='lead text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46813}, goog:processID: 17000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46813/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56892ff9ca023d83a49481fe6ab57a15
+2026-04-30 13:52:22 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [56892ff9ca023d83a49481fe6ab57a15, findElement {value=//p[@class='lead text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46813}, goog:processID: 17000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46813/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56892ff9ca023d83a49481fe6ab57a15
+2026-04-30 13:52:22 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:22 [main] INFO  Log - === TC015_LoginFailedEmptyCredentials Finished ===
 ]]></system-out>
   </testcase>
-  <testcase name="TC001_VerifyHomePage" classname="tests.HomeTests" time="0.217">
-    <system-out><![CDATA[2026-04-30 13:21:40 [main] INFO  Log - === Browser Closed ===
-2026-04-30 13:21:40 [main] INFO  Log - === Starting WebDriver ===
-2026-04-30 13:21:44 [main] INFO  Log - === Browser Opened ===
-2026-04-30 13:21:44 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
-2026-04-30 13:21:44 [main] INFO  Log - === Running: TC001_VerifyHomePage ===
-2026-04-30 13:21:44 [main] INFO  Log - [PASS] Header H1 is correct.
-2026-04-30 13:21:44 [main] INFO  Log - [PASS] Header H3 is correct.
-2026-04-30 13:21:44 [main] INFO  Log - [PASS] Button Make Appointment is correct.
-2026-04-30 13:21:44 [main] INFO  Log - [PASS] Footer Title is correct.
-2026-04-30 13:21:44 [main] INFO  Log - [PASS] Footer Address contains correct info.
-2026-04-30 13:21:44 [main] INFO  Log - [PASS] Footer Phone contains correct info.
-2026-04-30 13:21:44 [main] INFO  Log - [PASS] Footer Email is correct.
-2026-04-30 13:21:44 [main] INFO  Log - [PASS] Icon Facebook is displayed.
-2026-04-30 13:21:44 [main] INFO  Log - [PASS] Icon X is displayed.
-2026-04-30 13:21:44 [main] INFO  Log - [PASS] Icon Dribbble is displayed.
-2026-04-30 13:21:44 [main] INFO  Log - [PASS] Footer Copyright contains correct info.
-2026-04-30 13:21:44 [main] INFO  Log - [PASS] - Redirected to Home URL.
-2026-04-30 13:21:44 [main] INFO  Log - === TC001 Finished ===
+  <testcase name="TC005_OpenCURAHomeViaCURAHealthCareButton" classname="tests.DropDownTests" time="1.023">
+    <system-out><![CDATA[2026-04-30 13:52:22 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:22 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:26 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:26 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:26 [main] INFO  Log - === Running: TC005_Open CURA Home via CURA Healthcare button ===
+2026-04-30 13:52:26 [main] INFO  Log - Step: Navigate to Login Page first.
+2026-04-30 13:52:26 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:26 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:27 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:27 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:27 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:27 [main] INFO  Log - Step: Clicked Link Cura HealthCare.
+2026-04-30 13:52:27 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:52:27 [main] INFO  Log - [PASS] Header H1 after redirection is correct.
+2026-04-30 13:52:27 [main] INFO  Log - === TC005_OpenCURAHomeViaCURAHealthCareButton Finished ===
 ]]></system-out>
   </testcase>
-  <testcase name="TC002_OpeningCuraFacebook" classname="tests.HomeTests" time="5.246">
-    <failure message="Expected condition failed: waiting for url to contain &quot;facebook.com&quot;. Current url: &quot;https://katalon-demo-cura.herokuapp.com/#&quot;&#10;(tried for 5 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:47606}, goog:processID: 11468, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:47606/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d5aefccedc849c920e437377fc7d42d7" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="TC006_OpenCURAHomeViaHomeButton" classname="tests.DropDownTests" time="0.955">
+    <system-out><![CDATA[2026-04-30 13:52:27 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:27 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:31 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:31 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:31 [main] INFO  Log - === Running: TC006_Open CURA Home via Home button ===
+2026-04-30 13:52:31 [main] INFO  Log - Step: Navigate to Login Page first.
+2026-04-30 13:52:31 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:31 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:31 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:31 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:31 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:32 [main] INFO  Log - Step: Clicked Home button.
+2026-04-30 13:52:32 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:52:32 [main] INFO  Log - [PASS] Header H1 after redirection is correct.
+2026-04-30 13:52:32 [main] INFO  Log - === TC006_OpenCURAHomeViaHomeButton Finished ===
+]]></system-out>
+  </testcase>
+  <testcase name="TC007_OpenLoginViaLoginButton" classname="tests.DropDownTests" time="0.603">
+    <system-out><![CDATA[2026-04-30 13:52:32 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:32 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:36 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:36 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:36 [main] INFO  Log - === Running: TC007_Open Login via Login button ===
+2026-04-30 13:52:36 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:37 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:37 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:37 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:37 [main] INFO  Log - === TC007_OpenLoginViaLoginButton Finished ===
+]]></system-out>
+  </testcase>
+  <testcase name="TC023_OpenHistoryViaHistoryButton" classname="tests.DropDownTests" time="1.886">
+    <system-out><![CDATA[2026-04-30 13:52:37 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:37 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:41 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:41 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:41 [main] INFO  Log - === Running: TC023_Open History via History button ===
+2026-04-30 13:52:41 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:41 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:42 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:52:42 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:42 [main] INFO  Log - Step: Clicked History button.
+2026-04-30 13:52:43 [main] INFO  Log - [PASS] - Redirected to History URL.
+2026-04-30 13:52:43 [main] INFO  Log - [PASS] Header H2 History is correct.
+2026-04-30 13:52:43 [main] INFO  Log - === TC023_OpenHistoryViaHistoryButton Finished ===
+]]></system-out>
+  </testcase>
+  <testcase name="TC024_OpenProfileViaProfileButton" classname="tests.DropDownTests" time="2.053">
+    <system-out><![CDATA[2026-04-30 13:52:43 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:43 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:47 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:47 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:47 [main] INFO  Log - === Running: TC024_Open Profile via Profile button ===
+2026-04-30 13:52:47 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:47 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:49 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:52:49 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:49 [main] INFO  Log - Step: Clicked Profile button.
+2026-04-30 13:52:49 [main] INFO  Log - [PASS] - Redirected to Profile URL.
+2026-04-30 13:52:49 [main] INFO  Log - [PASS] Header H2 Profile is correct.
+2026-04-30 13:52:49 [main] INFO  Log - === TC024_OpenProfileViaProfileButton Finished ===
+]]></system-out>
+  </testcase>
+  <testcase name="TC001_VerifyHomePage" classname="tests.HomeTests" time="0.206">
+    <system-out><![CDATA[2026-04-30 13:52:49 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:49 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:53 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:53 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:53 [main] INFO  Log - === Running: TC001_VerifyHomePage ===
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Header H1 is correct.
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Header H3 is correct.
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Button Make Appointment is correct.
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Footer Title is correct.
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Footer Address contains correct info.
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Footer Phone contains correct info.
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Footer Email is correct.
+2026-04-30 13:52:54 [main] INFO  Log - [PASS] Icon Facebook is displayed.
+2026-04-30 13:52:54 [main] INFO  Log - [PASS] Icon X is displayed.
+2026-04-30 13:52:54 [main] INFO  Log - [PASS] Icon Dribbble is displayed.
+2026-04-30 13:52:54 [main] INFO  Log - [PASS] Footer Copyright contains correct info.
+2026-04-30 13:52:54 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:52:54 [main] INFO  Log - === TC001_VerifyHomePage Finished ===
+]]></system-out>
+  </testcase>
+  <testcase name="TC002_OpeningCuraFacebook" classname="tests.HomeTests" time="5.22">
+    <failure message="Expected condition failed: waiting for url to contain &quot;facebook.com&quot;. Current url: &quot;https://katalon-demo-cura.herokuapp.com/#&quot;&#10;(tried for 5 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60303}, goog:processID: 15260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60303/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f1de6fc92ab9fb7c1e90c7537700bf5d" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for url to contain "facebook.com". Current url: "https://katalon-demo-cura.herokuapp.com/#"
 (tried for 5 seconds with 500 milliseconds interval)
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:47606}, goog:processID: 11468, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:47606/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d5aefccedc849c920e437377fc7d42d7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60303}, goog:processID: 15260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60303/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1de6fc92ab9fb7c1e90c7537700bf5d
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
 	at utils.Helper.waitUrlContains(Helper.java:83)
@@ -303,22 +471,22 @@ Session ID: d5aefccedc849c920e437377fc7d42d7
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[2026-04-30 13:21:44 [main] INFO  Log - === Browser Closed ===
-2026-04-30 13:21:44 [main] INFO  Log - === Starting WebDriver ===
-2026-04-30 13:21:48 [main] INFO  Log - === Browser Opened ===
-2026-04-30 13:21:48 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
-2026-04-30 13:21:48 [main] INFO  Log - === Running: TC002_OpeningCuraFacebook ===
+    <system-out><![CDATA[2026-04-30 13:52:54 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:54 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:58 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:58 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:58 [main] INFO  Log - === Running: TC002_OpeningCuraFacebook ===
 ]]></system-out>
   </testcase>
-  <testcase name="TC003_OpeningCuraTwitter" classname="tests.HomeTests" time="5.219">
-    <failure message="Expected condition failed: waiting for url to contain &quot;x.com&quot;. Current url: &quot;https://katalon-demo-cura.herokuapp.com/#&quot;&#10;(tried for 5 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46191}, goog:processID: 7072, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46191/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e75efc8bcfd775e33e5113686a65194f" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="TC003_OpeningCuraTwitter" classname="tests.HomeTests" time="5.191">
+    <failure message="Expected condition failed: waiting for url to contain &quot;x.com&quot;. Current url: &quot;https://katalon-demo-cura.herokuapp.com/#&quot;&#10;(tried for 5 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62568}, goog:processID: 7596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62568/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2a5bea5e929a17c631494e9eddd90284" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for url to contain "x.com". Current url: "https://katalon-demo-cura.herokuapp.com/#"
 (tried for 5 seconds with 500 milliseconds interval)
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46191}, goog:processID: 7072, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46191/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e75efc8bcfd775e33e5113686a65194f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62568}, goog:processID: 7596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62568/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a5bea5e929a17c631494e9eddd90284
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
 	at utils.Helper.waitUrlContains(Helper.java:83)
@@ -359,22 +527,22 @@ Session ID: e75efc8bcfd775e33e5113686a65194f
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[Path for screenshot is : C:\Users\cahay\eclipse-workspace\CURAHealthcareServiceTest/screenshots/DEFECT.png
-2026-04-30 13:21:53 [main] INFO  Log - === Browser Closed ===
-2026-04-30 13:21:53 [main] INFO  Log - === Starting WebDriver ===
-2026-04-30 13:21:57 [main] INFO  Log - === Browser Opened ===
-2026-04-30 13:21:57 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
-2026-04-30 13:21:57 [main] INFO  Log - === Running: TC003_OpeningCuraTwitter ===
+2026-04-30 13:53:04 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:53:04 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:53:09 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:53:09 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:53:09 [main] INFO  Log - === Running: TC003_OpeningCuraTwitter ===
 ]]></system-out>
   </testcase>
-  <testcase name="TC004_OpeningCuraDribbble" classname="tests.HomeTests" time="5.24">
-    <failure message="Expected condition failed: waiting for url to contain &quot;dribble.com&quot;. Current url: &quot;https://katalon-demo-cura.herokuapp.com/#&quot;&#10;(tried for 5 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:47439}, goog:processID: 18272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:47439/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: be7d60ac32387fbdef4e8be077192ac7" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="TC004_OpeningCuraDribbble" classname="tests.HomeTests" time="5.171">
+    <failure message="Expected condition failed: waiting for url to contain &quot;dribble.com&quot;. Current url: &quot;https://katalon-demo-cura.herokuapp.com/#&quot;&#10;(tried for 5 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42974}, goog:processID: 8340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:42974/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eaa8d0cf5b3c96df59034bf281efb452" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for url to contain "dribble.com". Current url: "https://katalon-demo-cura.herokuapp.com/#"
 (tried for 5 seconds with 500 milliseconds interval)
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:47439}, goog:processID: 18272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:47439/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: be7d60ac32387fbdef4e8be077192ac7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42974}, goog:processID: 8340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:42974/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eaa8d0cf5b3c96df59034bf281efb452
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
 	at utils.Helper.waitUrlContains(Helper.java:83)
@@ -415,11 +583,11 @@ Session ID: be7d60ac32387fbdef4e8be077192ac7
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[Path for screenshot is : C:\Users\cahay\eclipse-workspace\CURAHealthcareServiceTest/screenshots/DEFECT.png
-2026-04-30 13:22:02 [main] INFO  Log - === Browser Closed ===
-2026-04-30 13:22:02 [main] INFO  Log - === Starting WebDriver ===
-2026-04-30 13:22:06 [main] INFO  Log - === Browser Opened ===
-2026-04-30 13:22:06 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
-2026-04-30 13:22:06 [main] INFO  Log - === Running: TC004_OpeningCuraDribbble ===
+2026-04-30 13:53:15 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:53:15 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:53:19 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:53:19 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:53:19 [main] INFO  Log - === Running: TC004_OpeningCuraDribbble ===
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -171,3 +171,908 @@ Session ID: c1c12e2d5d4a7bda9da1ff79fb83c8c5
 2026-04-30 13:32:58 [main] INFO  Log - [PASS] - Redirected to Login URL.
 2026-04-30 13:32:58 [main] INFO  Log - === TC015_LoginFailedEmptyCredentials Finished ===
 2026-04-30 13:32:58 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:34:08 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:34:12 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:34:12 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:34:12 [main] INFO  Log - === Running: TC008_Verify Login Page ===
+2026-04-30 13:34:12 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:34:12 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:34:13 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:34:13 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:34:13 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:34:13 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:34:13 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:34:13 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:34:13 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:34:13 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:34:13 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:34:13 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:34:13 [main] INFO  Log - === TC008_VerifyLoginPage Finished ===
+2026-04-30 13:34:13 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:34:13 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:34:18 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:34:18 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:34:18 [main] INFO  Log - === Running: TC009_Login Success ===
+2026-04-30 13:34:18 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:34:18 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:34:19 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:34:19 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:34:19 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:34:19 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:34:19 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:34:19 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:34:19 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:34:19 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:34:19 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:34:19 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:34:20 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:34:20 [main] INFO  Log - === TC009_LoginSuccess Finished ===
+2026-04-30 13:34:20 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:34:20 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:34:24 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:34:24 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:34:24 [main] INFO  Log - === Running: TC010_Logout Success ===
+2026-04-30 13:34:24 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:34:24 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:34:25 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:34:25 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:34:25 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:34:25 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:34:25 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:34:25 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:34:25 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:34:25 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:34:25 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:34:25 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:34:26 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:34:26 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:34:26 [main] INFO  Log - Step: Clicked Logout button.
+2026-04-30 13:34:26 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:34:26 [main] ERROR Log - [FAIL] Header H1 after redirection not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:34:26 [main] INFO  Log - === TC010_LogoutSuccess Finished ===
+2026-04-30 13:34:26 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:34:26 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:34:32 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:34:32 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:34:32 [main] INFO  Log - === Running: TC011_LoginFailedWrongUsername Success ===
+2026-04-30 13:34:32 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:34:32 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:34:32 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:34:32 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:34:32 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:34:32 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:34:32 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:34:32 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:34:32 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:34:32 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:34:32 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:34:32 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:34:33 [main] INFO  Log - [PASS] H2 Warning Login Failed is displayed.
+2026-04-30 13:34:33 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:34:33 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:34:33 [main] INFO  Log - === TC011_LoginFailedWrongUsername Finished ===
+2026-04-30 13:34:33 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:34:33 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:34:38 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:34:38 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:34:38 [main] INFO  Log - === Running: TC012_LoginFailedWrongPassword Success ===
+2026-04-30 13:34:38 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:34:38 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:34:39 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:34:39 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:34:39 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:34:39 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:34:39 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:34:39 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:34:39 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:34:39 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:34:39 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:34:39 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:34:40 [main] INFO  Log - [PASS] H2 Warning Login Failed is displayed.
+2026-04-30 13:34:40 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:34:40 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:34:40 [main] INFO  Log - === TC012_LoginFailedWrongPassword Finished ===
+2026-04-30 13:34:40 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:34:40 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:34:46 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:34:46 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:34:46 [main] INFO  Log - === Running: TC013_LoginFailedEmptyUsername Success ===
+2026-04-30 13:34:46 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:34:46 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:34:47 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:34:47 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:34:47 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:34:47 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:34:47 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:34:47 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:34:47 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:34:47 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:34:47 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:34:47 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:34:48 [main] INFO  Log - [PASS] H2 Warning Login Failed is displayed.
+2026-04-30 13:34:48 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:34:48 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:34:48 [main] INFO  Log - === TC013_LoginFailedEmptyUsername Finished ===
+2026-04-30 13:34:48 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:34:48 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:34:54 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:34:54 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:34:54 [main] INFO  Log - === Running: TC014_LoginFailedEmptyPassword Success ===
+2026-04-30 13:34:54 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:34:54 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:34:56 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:34:56 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:34:56 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:34:56 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:34:56 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:34:56 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:34:56 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:34:56 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:34:56 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:34:56 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:34:57 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cea0324d9f67b4fa1232304a8c1527d7, findElement {using=xpath, value=//p[@class='lead text-danger']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:26985}, goog:processID: 13768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:26985/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cea0324d9f67b4fa1232304a8c1527d7
+2026-04-30 13:34:57 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:34:58 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:34:58 [main] INFO  Log - === TC014_LoginFailedEmptyPassword Finished ===
+2026-04-30 13:34:58 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:34:58 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:35:09 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:35:09 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:35:09 [main] INFO  Log - === Running: TC015_LoginFailedEmptyCredentials Success ===
+2026-04-30 13:35:10 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:35:10 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:35:10 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:35:10 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:35:10 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:35:10 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:35:10 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:35:11 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:35:11 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:35:11 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:35:11 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:35:11 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:35:12 [main] INFO  Log - [PASS] H2 Warning Login Failed is displayed.
+2026-04-30 13:35:12 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:35:12 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:35:12 [main] INFO  Log - === TC015_LoginFailedEmptyCredentials Finished ===
+2026-04-30 13:35:12 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:35:12 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:35:17 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:35:17 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:35:17 [main] INFO  Log - === Running: TC005_Open CURA Home via CURA Healthcare button ===
+2026-04-30 13:35:17 [main] INFO  Log - Step: Navigate to Login Page first.
+2026-04-30 13:35:17 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:35:17 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:35:18 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:35:18 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:35:18 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:35:18 [main] INFO  Log - Step: Clicked Link Cura HealthCare.
+2026-04-30 13:35:18 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:35:18 [main] ERROR Log - [FAIL] Header H1 after redirection not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:35:18 [main] INFO  Log - === TC005_OpenCURAHomeViaCURAHealthCareButton Finished ===
+2026-04-30 13:35:18 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:35:18 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:35:23 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:35:23 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:35:23 [main] INFO  Log - === Running: TC006_Open CURA Home via Home button ===
+2026-04-30 13:35:23 [main] INFO  Log - Step: Navigate to Login Page first.
+2026-04-30 13:35:23 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:35:23 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:35:23 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:35:23 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:35:23 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:35:23 [main] INFO  Log - Step: Clicked Home button.
+2026-04-30 13:35:24 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:35:24 [main] ERROR Log - [FAIL] Header H1 after redirection not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:35:24 [main] INFO  Log - === TC006_OpenCURAHomeViaHomeButton Finished ===
+2026-04-30 13:35:24 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:35:24 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:35:29 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:35:29 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:35:29 [main] INFO  Log - === Running: TC007_Open Login via Login button ===
+2026-04-30 13:35:29 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:35:29 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:35:31 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:35:31 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:35:31 [main] INFO  Log - === TC007_OpenLoginViaLoginButton Finished ===
+2026-04-30 13:35:31 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:35:31 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:35:46 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:35:46 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:35:46 [main] INFO  Log - === Running: TC023_Open History via History button ===
+2026-04-30 13:35:46 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:35:46 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:35:48 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:35:48 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:35:48 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:35:48 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:35:48 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:35:48 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:35:48 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:35:48 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:35:48 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:35:48 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:35:49 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:35:49 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:35:49 [main] INFO  Log - Step: Clicked History button.
+2026-04-30 13:35:50 [main] INFO  Log - [PASS] - Redirected to History URL.
+2026-04-30 13:35:50 [main] ERROR Log - [FAIL] Header H2 History not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:35:50 [main] INFO  Log - === TC023_OpenHistoryViaHistoryButton Finished ===
+2026-04-30 13:35:50 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:35:50 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:35:55 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:35:55 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:35:55 [main] INFO  Log - === Running: TC024_Open Profile via Profile button ===
+2026-04-30 13:35:55 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:35:55 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:35:56 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:35:56 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:35:56 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:35:56 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:35:56 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:35:56 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:35:56 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:35:56 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:35:56 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:35:56 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:35:57 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:35:57 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:35:57 [main] INFO  Log - Step: Clicked Profile button.
+2026-04-30 13:35:58 [main] INFO  Log - [PASS] - Redirected to Profile URL.
+2026-04-30 13:35:58 [main] ERROR Log - [FAIL] Header H2 Profile not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:35:58 [main] INFO  Log - === TC024_OpenProfileViaProfileButton Finished ===
+2026-04-30 13:35:58 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:35:58 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:36:03 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:36:03 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:36:03 [main] INFO  Log - === Running: TC001_VerifyHomePage ===
+2026-04-30 13:36:03 [main] INFO  Log - [PASS] Header H1 is correct.
+2026-04-30 13:36:03 [main] INFO  Log - [PASS] Header H3 is correct.
+2026-04-30 13:36:04 [main] INFO  Log - [PASS] Button Make Appointment is correct.
+2026-04-30 13:36:04 [main] INFO  Log - [PASS] Footer Title is correct.
+2026-04-30 13:36:04 [main] INFO  Log - [PASS] Footer Address contains correct info.
+2026-04-30 13:36:04 [main] INFO  Log - [PASS] Footer Phone contains correct info.
+2026-04-30 13:36:04 [main] INFO  Log - [PASS] Footer Email is correct.
+2026-04-30 13:36:04 [main] INFO  Log - [PASS] Icon Facebook is displayed.
+2026-04-30 13:36:04 [main] INFO  Log - [PASS] Icon X is displayed.
+2026-04-30 13:36:04 [main] INFO  Log - [PASS] Icon Dribbble is displayed.
+2026-04-30 13:36:04 [main] INFO  Log - [PASS] Footer Copyright contains correct info.
+2026-04-30 13:36:04 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:36:04 [main] INFO  Log - === TC001_VerifyHomePage Finished ===
+2026-04-30 13:36:04 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:36:04 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:36:09 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:36:09 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:36:09 [main] INFO  Log - === Running: TC002_OpeningCuraFacebook ===
+2026-04-30 13:36:15 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:36:15 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:36:22 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:36:22 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:36:22 [main] INFO  Log - === Running: TC003_OpeningCuraTwitter ===
+2026-04-30 13:36:28 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:36:28 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:36:33 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:36:33 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:36:33 [main] INFO  Log - === Running: TC004_OpeningCuraDribbble ===
+2026-04-30 13:36:38 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:37:59 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:38:05 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:38:05 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:38:05 [main] INFO  Log - === Running: TC001_VerifyHomePage ===
+2026-04-30 13:38:05 [main] INFO  Log - [PASS] Header H1 is correct.
+2026-04-30 13:38:05 [main] INFO  Log - [PASS] Header H3 is correct.
+2026-04-30 13:38:05 [main] INFO  Log - [PASS] Button Make Appointment is correct.
+2026-04-30 13:38:05 [main] INFO  Log - [PASS] Footer Title is correct.
+2026-04-30 13:38:05 [main] INFO  Log - [PASS] Footer Address contains correct info.
+2026-04-30 13:38:05 [main] INFO  Log - [PASS] Footer Phone contains correct info.
+2026-04-30 13:38:05 [main] INFO  Log - [PASS] Footer Email is correct.
+2026-04-30 13:38:05 [main] INFO  Log - [PASS] Icon Facebook is displayed.
+2026-04-30 13:38:05 [main] INFO  Log - [PASS] Icon X is displayed.
+2026-04-30 13:38:05 [main] INFO  Log - [PASS] Icon Dribbble is displayed.
+2026-04-30 13:38:05 [main] INFO  Log - [PASS] Footer Copyright contains correct info.
+2026-04-30 13:38:05 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:38:05 [main] INFO  Log - === TC001_VerifyHomePage Finished ===
+2026-04-30 13:38:05 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:39:31 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:39:39 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:39:39 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:39:39 [main] INFO  Log - === Running: TC001_VerifyHomePage ===
+2026-04-30 13:39:39 [main] INFO  Log - [PASS] Header H1 is correct.
+2026-04-30 13:39:39 [main] INFO  Log - [PASS] Header H3 is correct.
+2026-04-30 13:39:40 [main] INFO  Log - [PASS] Button Make Appointment is correct.
+2026-04-30 13:39:40 [main] INFO  Log - [PASS] Footer Title is correct.
+2026-04-30 13:39:40 [main] INFO  Log - [PASS] Footer Address contains correct info.
+2026-04-30 13:39:40 [main] INFO  Log - [PASS] Footer Phone contains correct info.
+2026-04-30 13:39:40 [main] INFO  Log - [PASS] Footer Email is correct.
+2026-04-30 13:39:40 [main] INFO  Log - [PASS] Icon Facebook is displayed.
+2026-04-30 13:39:40 [main] INFO  Log - [PASS] Icon X is displayed.
+2026-04-30 13:39:40 [main] INFO  Log - [PASS] Icon Dribbble is displayed.
+2026-04-30 13:39:40 [main] INFO  Log - [PASS] Footer Copyright contains correct info.
+2026-04-30 13:39:40 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:39:40 [main] INFO  Log - === TC001_VerifyHomePage Finished ===
+2026-04-30 13:39:40 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:39:40 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:39:43 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:39:43 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:39:43 [main] INFO  Log - === Running: TC002_OpeningCuraFacebook ===
+2026-04-30 13:39:49 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:39:49 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:39:53 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:39:53 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:39:53 [main] INFO  Log - === Running: TC003_OpeningCuraTwitter ===
+2026-04-30 13:39:59 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:39:59 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:40:03 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:40:03 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:40:03 [main] INFO  Log - === Running: TC004_OpeningCuraDribbble ===
+2026-04-30 13:40:08 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:41:03 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:41:07 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:41:07 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:41:07 [main] INFO  Log - === Running: TC005_Open CURA Home via CURA Healthcare button ===
+2026-04-30 13:41:07 [main] INFO  Log - Step: Navigate to Login Page first.
+2026-04-30 13:41:07 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:41:07 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:41:07 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:41:07 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:41:07 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:41:07 [main] INFO  Log - Step: Clicked Link Cura HealthCare.
+2026-04-30 13:41:08 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:41:08 [main] ERROR Log - [FAIL] Header H1 after redirection not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:41:08 [main] INFO  Log - === TC005_OpenCURAHomeViaCURAHealthCareButton Finished ===
+2026-04-30 13:41:08 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:42:07 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:42:11 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:42:11 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:42:11 [main] INFO  Log - === Running: TC005_Open CURA Home via CURA Healthcare button ===
+2026-04-30 13:42:11 [main] INFO  Log - Step: Navigate to Login Page first.
+2026-04-30 13:42:11 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:42:12 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:42:12 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:42:12 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:42:12 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:42:12 [main] INFO  Log - Step: Clicked Link Cura HealthCare.
+2026-04-30 13:42:12 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:42:12 [main] ERROR Log - [FAIL] Header H1 after redirection not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:42:12 [main] INFO  Log - === TC005_OpenCURAHomeViaCURAHealthCareButton Finished ===
+2026-04-30 13:42:13 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:43:20 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:43:59 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:43:59 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:43:59 [main] INFO  Log - === Running: TC005_Open CURA Home via CURA Healthcare button ===
+2026-04-30 13:43:59 [main] INFO  Log - Step: Navigate to Login Page first.
+2026-04-30 13:44:07 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:44:11 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:44:11 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:44:11 [main] INFO  Log - === Running: TC005_Open CURA Home via CURA Healthcare button ===
+2026-04-30 13:44:11 [main] INFO  Log - Step: Navigate to Login Page first.
+2026-04-30 13:44:11 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:44:11 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:44:11 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:44:11 [main] ERROR Log - [FAIL] Header H2 Login not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:44:11 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:44:11 [main] INFO  Log - Step: Clicked Link Cura HealthCare.
+2026-04-30 13:44:12 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:44:12 [main] ERROR Log - [FAIL] Header H1 after redirection not found or error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-30 13:44:12 [main] INFO  Log - === TC005_OpenCURAHomeViaCURAHealthCareButton Finished ===
+2026-04-30 13:44:12 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:51:18 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:51:22 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:51:22 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:51:22 [main] INFO  Log - === Running: TC005_Open CURA Home via CURA Healthcare button ===
+2026-04-30 13:51:22 [main] INFO  Log - Step: Navigate to Login Page first.
+2026-04-30 13:51:23 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:51:23 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:51:23 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:51:23 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:23 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:51:23 [main] INFO  Log - Step: Clicked Link Cura HealthCare.
+2026-04-30 13:51:24 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:51:24 [main] INFO  Log - [PASS] Header H1 after redirection is correct.
+2026-04-30 13:51:24 [main] INFO  Log - === TC005_OpenCURAHomeViaCURAHealthCareButton Finished ===
+2026-04-30 13:51:24 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:51:37 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:51:42 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:51:42 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:51:42 [main] INFO  Log - === Running: TC008_Verify Login Page ===
+2026-04-30 13:51:42 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:51:42 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:51:42 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:51:42 [main] INFO  Log - === TC008_VerifyLoginPage Finished ===
+2026-04-30 13:51:43 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:51:43 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:51:46 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:51:46 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:51:46 [main] INFO  Log - === Running: TC009_Login Success ===
+2026-04-30 13:51:46 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:51:46 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:51:47 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:51:48 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:51:48 [main] INFO  Log - === TC009_LoginSuccess Finished ===
+2026-04-30 13:51:48 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:51:48 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:51:52 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:51:52 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:51:52 [main] INFO  Log - === Running: TC010_Logout Success ===
+2026-04-30 13:51:52 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:51:52 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:51:53 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:51:54 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:51:54 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:51:54 [main] INFO  Log - Step: Clicked Logout button.
+2026-04-30 13:51:55 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:51:55 [main] INFO  Log - [PASS] Header H1 after redirection is correct.
+2026-04-30 13:51:55 [main] INFO  Log - === TC010_LogoutSuccess Finished ===
+2026-04-30 13:51:55 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:51:55 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:51:59 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:51:59 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:51:59 [main] INFO  Log - === Running: TC011_LoginFailedWrongUsername Success ===
+2026-04-30 13:51:59 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:51:59 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:51:59 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:00 [main] INFO  Log - [PASS] H2 Warning Login Failed is displayed.
+2026-04-30 13:52:00 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:52:00 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:00 [main] INFO  Log - === TC011_LoginFailedWrongUsername Finished ===
+2026-04-30 13:52:00 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:00 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:04 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:04 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:04 [main] INFO  Log - === Running: TC012_LoginFailedWrongPassword Success ===
+2026-04-30 13:52:04 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:04 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:52:05 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:06 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43b74e2c01ead75426687bb5812c5adb, findElement {value=//p[@class='lead text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:21838}, goog:processID: 3708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:21838/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43b74e2c01ead75426687bb5812c5adb
+2026-04-30 13:52:06 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:52:06 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:06 [main] INFO  Log - === TC012_LoginFailedWrongPassword Finished ===
+2026-04-30 13:52:06 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:06 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:09 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:09 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:09 [main] INFO  Log - === Running: TC013_LoginFailedEmptyUsername Success ===
+2026-04-30 13:52:10 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:10 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:52:10 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:10 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9ede56cd79d2a78bc72f6e331c9b15e, findElement {value=//p[@class='lead text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6636}, goog:processID: 14776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6636/devtool..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9ede56cd79d2a78bc72f6e331c9b15e
+2026-04-30 13:52:11 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9ede56cd79d2a78bc72f6e331c9b15e, findElement {value=//p[@class='lead text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6636}, goog:processID: 14776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6636/devtool..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9ede56cd79d2a78bc72f6e331c9b15e
+2026-04-30 13:52:11 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:11 [main] INFO  Log - === TC013_LoginFailedEmptyUsername Finished ===
+2026-04-30 13:52:11 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:11 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:15 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:15 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:15 [main] INFO  Log - === Running: TC014_LoginFailedEmptyPassword Success ===
+2026-04-30 13:52:15 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:15 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:52:16 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:16 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7753f4ca68bc642c2aeac59a602cb28a, findElement {value=//p[@class='lead text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:28869}, goog:processID: 19192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:28869/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7753f4ca68bc642c2aeac59a602cb28a
+2026-04-30 13:52:17 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:52:17 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:17 [main] INFO  Log - === TC014_LoginFailedEmptyPassword Finished ===
+2026-04-30 13:52:17 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:17 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:21 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:21 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:21 [main] INFO  Log - === Running: TC015_LoginFailedEmptyCredentials Success ===
+2026-04-30 13:52:21 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:21 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:52:21 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:22 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [56892ff9ca023d83a49481fe6ab57a15, findElement {value=//p[@class='lead text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46813}, goog:processID: 17000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46813/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56892ff9ca023d83a49481fe6ab57a15
+2026-04-30 13:52:22 [main] ERROR Log - [FAIL] H2 Warning Login Failed not found or error: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='lead text-danger']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [56892ff9ca023d83a49481fe6ab57a15, findElement {value=//p[@class='lead text-danger'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46813}, goog:processID: 17000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46813/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56892ff9ca023d83a49481fe6ab57a15
+2026-04-30 13:52:22 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:22 [main] INFO  Log - === TC015_LoginFailedEmptyCredentials Finished ===
+2026-04-30 13:52:22 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:22 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:26 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:26 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:26 [main] INFO  Log - === Running: TC005_Open CURA Home via CURA Healthcare button ===
+2026-04-30 13:52:26 [main] INFO  Log - Step: Navigate to Login Page first.
+2026-04-30 13:52:26 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:26 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:27 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:27 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:27 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:27 [main] INFO  Log - Step: Clicked Link Cura HealthCare.
+2026-04-30 13:52:27 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:52:27 [main] INFO  Log - [PASS] Header H1 after redirection is correct.
+2026-04-30 13:52:27 [main] INFO  Log - === TC005_OpenCURAHomeViaCURAHealthCareButton Finished ===
+2026-04-30 13:52:27 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:27 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:31 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:31 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:31 [main] INFO  Log - === Running: TC006_Open CURA Home via Home button ===
+2026-04-30 13:52:31 [main] INFO  Log - Step: Navigate to Login Page first.
+2026-04-30 13:52:31 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:31 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:31 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:31 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:31 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:32 [main] INFO  Log - Step: Clicked Home button.
+2026-04-30 13:52:32 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:52:32 [main] INFO  Log - [PASS] Header H1 after redirection is correct.
+2026-04-30 13:52:32 [main] INFO  Log - === TC006_OpenCURAHomeViaHomeButton Finished ===
+2026-04-30 13:52:32 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:32 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:36 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:36 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:36 [main] INFO  Log - === Running: TC007_Open Login via Login button ===
+2026-04-30 13:52:36 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:37 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:37 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:37 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:37 [main] INFO  Log - === TC007_OpenLoginViaLoginButton Finished ===
+2026-04-30 13:52:37 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:37 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:41 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:41 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:41 [main] INFO  Log - === Running: TC023_Open History via History button ===
+2026-04-30 13:52:41 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:41 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:52:41 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:42 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:52:42 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:42 [main] INFO  Log - Step: Clicked History button.
+2026-04-30 13:52:43 [main] INFO  Log - [PASS] - Redirected to History URL.
+2026-04-30 13:52:43 [main] INFO  Log - [PASS] Header H2 History is correct.
+2026-04-30 13:52:43 [main] INFO  Log - === TC023_OpenHistoryViaHistoryButton Finished ===
+2026-04-30 13:52:43 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:43 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:47 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:47 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:47 [main] INFO  Log - === Running: TC024_Open Profile via Profile button ===
+2026-04-30 13:52:47 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:47 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:52:48 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:52:49 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:52:49 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:52:49 [main] INFO  Log - Step: Clicked Profile button.
+2026-04-30 13:52:49 [main] INFO  Log - [PASS] - Redirected to Profile URL.
+2026-04-30 13:52:49 [main] INFO  Log - [PASS] Header H2 Profile is correct.
+2026-04-30 13:52:49 [main] INFO  Log - === TC024_OpenProfileViaProfileButton Finished ===
+2026-04-30 13:52:49 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:49 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:53 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:53 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:53 [main] INFO  Log - === Running: TC001_VerifyHomePage ===
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Header H1 is correct.
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Header H3 is correct.
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Button Make Appointment is correct.
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Footer Title is correct.
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Footer Address contains correct info.
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Footer Phone contains correct info.
+2026-04-30 13:52:53 [main] INFO  Log - [PASS] Footer Email is correct.
+2026-04-30 13:52:54 [main] INFO  Log - [PASS] Icon Facebook is displayed.
+2026-04-30 13:52:54 [main] INFO  Log - [PASS] Icon X is displayed.
+2026-04-30 13:52:54 [main] INFO  Log - [PASS] Icon Dribbble is displayed.
+2026-04-30 13:52:54 [main] INFO  Log - [PASS] Footer Copyright contains correct info.
+2026-04-30 13:52:54 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:52:54 [main] INFO  Log - === TC001_VerifyHomePage Finished ===
+2026-04-30 13:52:54 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:52:54 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:52:58 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:52:58 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:52:58 [main] INFO  Log - === Running: TC002_OpeningCuraFacebook ===
+2026-04-30 13:53:04 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:53:04 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:53:09 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:53:09 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:53:09 [main] INFO  Log - === Running: TC003_OpeningCuraTwitter ===
+2026-04-30 13:53:15 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:53:15 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:53:19 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:53:19 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:53:19 [main] INFO  Log - === Running: TC004_OpeningCuraDribbble ===
+2026-04-30 13:53:24 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:55:16 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:55:20 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:55:20 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:55:20 [main] INFO  Log - === Running: TC008_Verify Login Page ===
+2026-04-30 13:55:20 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:55:20 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:55:21 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:55:21 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:21 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:55:21 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:21 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:55:21 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:55:21 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:55:21 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:55:21 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:55:21 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:55:21 [main] INFO  Log - === TC008_VerifyLoginPage Finished ===
+2026-04-30 13:55:21 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:55:21 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:55:26 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:55:26 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:55:26 [main] INFO  Log - === Running: TC009_Login Success ===
+2026-04-30 13:55:26 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:55:26 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:55:26 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:55:26 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:26 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:55:26 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:26 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:55:26 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:55:26 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:55:26 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:55:26 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:55:26 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:55:27 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:55:27 [main] INFO  Log - === TC009_LoginSuccess Finished ===
+2026-04-30 13:55:27 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:55:27 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:55:32 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:55:32 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:55:32 [main] INFO  Log - === Running: TC010_Logout Success ===
+2026-04-30 13:55:32 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:55:32 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:55:32 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:55:32 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:32 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:55:32 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:32 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:55:32 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:55:32 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:55:32 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:55:32 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:55:32 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:55:33 [main] INFO  Log - [PASS] - Redirected to Appointment URL.
+2026-04-30 13:55:33 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:55:33 [main] INFO  Log - Step: Clicked Logout button.
+2026-04-30 13:55:34 [main] INFO  Log - [PASS] - Redirected to Home URL.
+2026-04-30 13:55:34 [main] INFO  Log - [PASS] Header H1 after redirection is correct.
+2026-04-30 13:55:34 [main] INFO  Log - === TC010_LogoutSuccess Finished ===
+2026-04-30 13:55:34 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:55:34 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:55:38 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:55:38 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:55:38 [main] INFO  Log - === Running: TC011_LoginFailedWrongUsername Success ===
+2026-04-30 13:55:38 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:55:38 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:55:39 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:55:39 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:39 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:55:39 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:39 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:55:39 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:55:39 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:55:39 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:55:39 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:55:39 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:55:40 [main] INFO  Log - [PASS] H2 Warning Login Failed is displayed.
+2026-04-30 13:55:40 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:55:40 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:55:40 [main] INFO  Log - === TC011_LoginFailedWrongUsername Finished ===
+2026-04-30 13:55:40 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:55:40 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:55:44 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:55:44 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:55:44 [main] INFO  Log - === Running: TC012_LoginFailedWrongPassword Success ===
+2026-04-30 13:55:44 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:55:44 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:55:45 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:55:45 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:45 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:55:45 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:45 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:55:45 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:55:45 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:55:45 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:55:45 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:55:45 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:55:46 [main] INFO  Log - [PASS] H2 Warning Login Failed is displayed.
+2026-04-30 13:55:46 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:55:46 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:55:46 [main] INFO  Log - === TC012_LoginFailedWrongPassword Finished ===
+2026-04-30 13:55:46 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:55:46 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:55:50 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:55:50 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:55:50 [main] INFO  Log - === Running: TC013_LoginFailedEmptyUsername Success ===
+2026-04-30 13:55:50 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:55:50 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:55:50 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:55:50 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:50 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:55:50 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:50 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:55:50 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:55:50 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:55:50 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:55:50 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:55:50 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:55:51 [main] INFO  Log - [PASS] H2 Warning Login Failed is displayed.
+2026-04-30 13:55:51 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:55:51 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:55:51 [main] INFO  Log - === TC013_LoginFailedEmptyUsername Finished ===
+2026-04-30 13:55:51 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:55:51 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:55:55 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:55:55 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:55:55 [main] INFO  Log - === Running: TC014_LoginFailedEmptyPassword Success ===
+2026-04-30 13:55:55 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:55:55 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:55:55 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:55:55 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:55 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:55:56 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:55:56 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:55:56 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:55:56 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:55:56 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:55:56 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:55:56 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:55:56 [main] INFO  Log - [PASS] H2 Warning Login Failed is displayed.
+2026-04-30 13:55:56 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:55:56 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:55:56 [main] INFO  Log - === TC014_LoginFailedEmptyPassword Finished ===
+2026-04-30 13:55:57 [main] INFO  Log - === Browser Closed ===
+2026-04-30 13:55:57 [main] INFO  Log - === Starting WebDriver ===
+2026-04-30 13:56:01 [main] INFO  Log - === Browser Opened ===
+2026-04-30 13:56:01 [main] INFO  Log - === Navigate URL to https://katalon-demo-cura.herokuapp.com/ ===
+2026-04-30 13:56:01 [main] INFO  Log - === Running: TC015_LoginFailedEmptyCredentials Success ===
+2026-04-30 13:56:01 [main] INFO  Log - Step: Clicked Menu Toggle.
+2026-04-30 13:56:01 [main] INFO  Log - Step: Clicked Login button.
+2026-04-30 13:56:02 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:56:02 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:56:02 [main] INFO  Log - [PASS] - Redirected to Login via Login button Sidebar.
+2026-04-30 13:56:02 [main] INFO  Log - [PASS] Header H2 Login is correct.
+2026-04-30 13:56:02 [main] INFO  Log - [PASS] Label Username is correct.
+2026-04-30 13:56:02 [main] INFO  Log - [PASS] Label Password is correct.
+2026-04-30 13:56:02 [main] INFO  Log - [PASS] Input Username is displayed.
+2026-04-30 13:56:02 [main] INFO  Log - [PASS] Input Password is displayed.
+2026-04-30 13:56:02 [main] INFO  Log - [PASS] Button Login is correct.
+2026-04-30 13:56:02 [main] INFO  Log - [PASS] Button Login is displayed.
+2026-04-30 13:56:03 [main] INFO  Log - [PASS] H2 Warning Login Failed is displayed.
+2026-04-30 13:56:03 [main] INFO  Log - [PASS] H2 Warning Login Failed is correct.
+2026-04-30 13:56:03 [main] INFO  Log - [PASS] - Redirected to Login URL.
+2026-04-30 13:56:03 [main] INFO  Log - === TC015_LoginFailedEmptyCredentials Finished ===
+2026-04-30 13:56:03 [main] INFO  Log - === Browser Closed ===

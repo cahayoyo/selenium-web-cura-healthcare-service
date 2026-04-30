@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="9" failed="3" skipped="0">
+<testng-results ignored="0" total="17" passed="14" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-30T13:20:55 WIB" name="Surefire suite" finished-at="2026-04-30T13:22:12 WIB" duration-ms="76660">
+  <suite started-at="2026-04-30T13:51:37 WIB" name="Surefire suite" finished-at="2026-04-30T13:53:24 WIB" duration-ms="107377">
     <groups>
     </groups>
-    <test started-at="2026-04-30T13:20:55 WIB" name="Surefire test" finished-at="2026-04-30T13:22:12 WIB" duration-ms="76660">
+    <test started-at="2026-04-30T13:51:37 WIB" name="Surefire test" finished-at="2026-04-30T13:53:24 WIB" duration-ms="107377">
       <class name="tests.DropDownTests">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:12 WIB" name="setUp" finished-at="2026-04-30T13:21:17 WIB" duration-ms="4272" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:22 WIB" name="setUp" finished-at="2026-04-30T13:52:26 WIB" duration-ms="3763" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,22 +18,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC005_OpenCURAHomeViaCURAHealthCareButton()[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:17 WIB" name="TC005_OpenCURAHomeViaCURAHealthCareButton" finished-at="2026-04-30T13:21:18 WIB" duration-ms="1363" status="PASS">
+        <test-method signature="TC005_OpenCURAHomeViaCURAHealthCareButton()[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:26 WIB" name="TC005_OpenCURAHomeViaCURAHealthCareButton" finished-at="2026-04-30T13:52:27 WIB" duration-ms="1023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC005_OpenCURAHomeViaCURAHealthCareButton -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:18 WIB" name="tearDown" finished-at="2026-04-30T13:21:18 WIB" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:27 WIB" name="tearDown" finished-at="2026-04-30T13:52:27 WIB" duration-ms="140" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC005_OpenCURAHomeViaCURAHealthCareButton status=SUCCESS method=DropDownTests.TC005_OpenCURAHomeViaCURAHealthCareButton()[pri:0, instance:tests.DropDownTests@35047d03] output={null}]]]>
+                <![CDATA[[TestResult name=TC005_OpenCURAHomeViaCURAHealthCareButton status=SUCCESS method=DropDownTests.TC005_OpenCURAHomeViaCURAHealthCareButton()[pri:0, instance:tests.DropDownTests@6f96c77] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:18 WIB" name="setUp" finished-at="2026-04-30T13:21:22 WIB" duration-ms="3878" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:27 WIB" name="setUp" finished-at="2026-04-30T13:52:31 WIB" duration-ms="3618" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,22 +44,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC006_OpenCURAHomeViaHomeButton()[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:22 WIB" name="TC006_OpenCURAHomeViaHomeButton" finished-at="2026-04-30T13:21:23 WIB" duration-ms="970" status="PASS">
+        <test-method signature="TC006_OpenCURAHomeViaHomeButton()[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:31 WIB" name="TC006_OpenCURAHomeViaHomeButton" finished-at="2026-04-30T13:52:32 WIB" duration-ms="956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC006_OpenCURAHomeViaHomeButton -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:23 WIB" name="tearDown" finished-at="2026-04-30T13:21:23 WIB" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:32 WIB" name="tearDown" finished-at="2026-04-30T13:52:32 WIB" duration-ms="109" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC006_OpenCURAHomeViaHomeButton status=SUCCESS method=DropDownTests.TC006_OpenCURAHomeViaHomeButton()[pri:0, instance:tests.DropDownTests@35047d03] output={null}]]]>
+                <![CDATA[[TestResult name=TC006_OpenCURAHomeViaHomeButton status=SUCCESS method=DropDownTests.TC006_OpenCURAHomeViaHomeButton()[pri:0, instance:tests.DropDownTests@6f96c77] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:23 WIB" name="setUp" finished-at="2026-04-30T13:21:28 WIB" duration-ms="4697" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:32 WIB" name="setUp" finished-at="2026-04-30T13:52:36 WIB" duration-ms="4476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,22 +70,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC007_OpenLoginViaLoginButton()[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:28 WIB" name="TC007_OpenLoginViaLoginButton" finished-at="2026-04-30T13:21:29 WIB" duration-ms="547" status="PASS">
+        <test-method signature="TC007_OpenLoginViaLoginButton()[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:36 WIB" name="TC007_OpenLoginViaLoginButton" finished-at="2026-04-30T13:52:37 WIB" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC007_OpenLoginViaLoginButton -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:29 WIB" name="tearDown" finished-at="2026-04-30T13:21:29 WIB" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:37 WIB" name="tearDown" finished-at="2026-04-30T13:52:37 WIB" duration-ms="118" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC007_OpenLoginViaLoginButton status=SUCCESS method=DropDownTests.TC007_OpenLoginViaLoginButton()[pri:0, instance:tests.DropDownTests@35047d03] output={null}]]]>
+                <![CDATA[[TestResult name=TC007_OpenLoginViaLoginButton status=SUCCESS method=DropDownTests.TC007_OpenLoginViaLoginButton()[pri:0, instance:tests.DropDownTests@6f96c77] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:29 WIB" name="setUp" finished-at="2026-04-30T13:21:32 WIB" duration-ms="3676" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:37 WIB" name="setUp" finished-at="2026-04-30T13:52:41 WIB" duration-ms="3646" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,22 +96,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC023_OpenHistoryViaHistoryButton()[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:32 WIB" name="TC023_OpenHistoryViaHistoryButton" finished-at="2026-04-30T13:21:34 WIB" duration-ms="1874" status="PASS">
+        <test-method signature="TC023_OpenHistoryViaHistoryButton()[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:41 WIB" name="TC023_OpenHistoryViaHistoryButton" finished-at="2026-04-30T13:52:43 WIB" duration-ms="1885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC023_OpenHistoryViaHistoryButton -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:34 WIB" name="tearDown" finished-at="2026-04-30T13:21:34 WIB" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:43 WIB" name="tearDown" finished-at="2026-04-30T13:52:43 WIB" duration-ms="162" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC023_OpenHistoryViaHistoryButton status=SUCCESS method=DropDownTests.TC023_OpenHistoryViaHistoryButton()[pri:0, instance:tests.DropDownTests@35047d03] output={null}]]]>
+                <![CDATA[[TestResult name=TC023_OpenHistoryViaHistoryButton status=SUCCESS method=DropDownTests.TC023_OpenHistoryViaHistoryButton()[pri:0, instance:tests.DropDownTests@6f96c77] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:34 WIB" name="setUp" finished-at="2026-04-30T13:21:38 WIB" duration-ms="3543" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:43 WIB" name="setUp" finished-at="2026-04-30T13:52:47 WIB" duration-ms="4398" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,15 +122,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC024_OpenProfileViaProfileButton()[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:38 WIB" name="TC024_OpenProfileViaProfileButton" finished-at="2026-04-30T13:21:40 WIB" duration-ms="1870" status="PASS">
+        <test-method signature="TC024_OpenProfileViaProfileButton()[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:47 WIB" name="TC024_OpenProfileViaProfileButton" finished-at="2026-04-30T13:52:49 WIB" duration-ms="2054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC024_OpenProfileViaProfileButton -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DropDownTests@35047d03]" started-at="2026-04-30T13:21:40 WIB" name="tearDown" finished-at="2026-04-30T13:21:40 WIB" duration-ms="132" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DropDownTests@6f96c77]" started-at="2026-04-30T13:52:49 WIB" name="tearDown" finished-at="2026-04-30T13:52:49 WIB" duration-ms="111" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC024_OpenProfileViaProfileButton status=SUCCESS method=DropDownTests.TC024_OpenProfileViaProfileButton()[pri:0, instance:tests.DropDownTests@35047d03] output={null}]]]>
+                <![CDATA[[TestResult name=TC024_OpenProfileViaProfileButton status=SUCCESS method=DropDownTests.TC024_OpenProfileViaProfileButton()[pri:0, instance:tests.DropDownTests@6f96c77] output={null}]]]>
               </value>
             </param>
           </params>
@@ -139,7 +139,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- tests.DropDownTests -->
       <class name="tests.HomeTests">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.HomeTests@49b0b76]" started-at="2026-04-30T13:21:40 WIB" name="setUp" finished-at="2026-04-30T13:21:44 WIB" duration-ms="3674" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.HomeTests@be64738]" started-at="2026-04-30T13:52:49 WIB" name="setUp" finished-at="2026-04-30T13:52:53 WIB" duration-ms="3925" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,22 +150,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC001_VerifyHomePage()[pri:0, instance:tests.HomeTests@49b0b76]" started-at="2026-04-30T13:21:44 WIB" name="TC001_VerifyHomePage" finished-at="2026-04-30T13:21:44 WIB" duration-ms="217" status="PASS">
+        <test-method signature="TC001_VerifyHomePage()[pri:0, instance:tests.HomeTests@be64738]" started-at="2026-04-30T13:52:53 WIB" name="TC001_VerifyHomePage" finished-at="2026-04-30T13:52:54 WIB" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_VerifyHomePage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HomeTests@49b0b76]" started-at="2026-04-30T13:21:44 WIB" name="tearDown" finished-at="2026-04-30T13:21:44 WIB" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HomeTests@be64738]" started-at="2026-04-30T13:52:54 WIB" name="tearDown" finished-at="2026-04-30T13:52:54 WIB" duration-ms="115" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC001_VerifyHomePage status=SUCCESS method=HomeTests.TC001_VerifyHomePage()[pri:0, instance:tests.HomeTests@49b0b76] output={null}]]]>
+                <![CDATA[[TestResult name=TC001_VerifyHomePage status=SUCCESS method=HomeTests.TC001_VerifyHomePage()[pri:0, instance:tests.HomeTests@be64738] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.HomeTests@49b0b76]" started-at="2026-04-30T13:21:44 WIB" name="setUp" finished-at="2026-04-30T13:21:48 WIB" duration-ms="3580" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.HomeTests@be64738]" started-at="2026-04-30T13:52:54 WIB" name="setUp" finished-at="2026-04-30T13:52:58 WIB" duration-ms="4370" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,7 +176,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC002_OpeningCuraFacebook()[pri:0, instance:tests.HomeTests@49b0b76]" started-at="2026-04-30T13:21:48 WIB" name="TC002_OpeningCuraFacebook" finished-at="2026-04-30T13:21:53 WIB" duration-ms="5243" status="FAIL">
+        <test-method signature="TC002_OpeningCuraFacebook()[pri:0, instance:tests.HomeTests@be64738]" started-at="2026-04-30T13:52:58 WIB" name="TC002_OpeningCuraFacebook" finished-at="2026-04-30T13:53:03 WIB" duration-ms="5217" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for url to contain "facebook.com". Current url: "https://katalon-demo-cura.herokuapp.com/#"
@@ -184,8 +184,8 @@
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:47606}, goog:processID: 11468, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:47606/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d5aefccedc849c920e437377fc7d42d7]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60303}, goog:processID: 15260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60303/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1de6fc92ab9fb7c1e90c7537700bf5d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "facebook.com". Current url: "https://katalon-demo-cura.herokuapp.com/#"
@@ -193,8 +193,8 @@ Session ID: d5aefccedc849c920e437377fc7d42d7]]>
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:47606}, goog:processID: 11468, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:47606/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d5aefccedc849c920e437377fc7d42d7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60303}, goog:processID: 15260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60303/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1de6fc92ab9fb7c1e90c7537700bf5d
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
 at utils.Helper.waitUrlContains(Helper.java:83)
@@ -239,18 +239,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC002_OpeningCuraFacebook -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HomeTests@49b0b76]" started-at="2026-04-30T13:21:53 WIB" name="tearDown" finished-at="2026-04-30T13:21:53 WIB" duration-ms="498" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HomeTests@be64738]" started-at="2026-04-30T13:53:03 WIB" name="tearDown" finished-at="2026-04-30T13:53:04 WIB" duration-ms="587" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC002_OpeningCuraFacebook status=FAILURE method=HomeTests.TC002_OpeningCuraFacebook()[pri:0, instance:tests.HomeTests@49b0b76] output={null}]]]>
+                <![CDATA[[TestResult name=TC002_OpeningCuraFacebook status=FAILURE method=HomeTests.TC002_OpeningCuraFacebook()[pri:0, instance:tests.HomeTests@be64738] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.HomeTests@49b0b76]" started-at="2026-04-30T13:21:53 WIB" name="setUp" finished-at="2026-04-30T13:21:57 WIB" duration-ms="3539" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.HomeTests@be64738]" started-at="2026-04-30T13:53:04 WIB" name="setUp" finished-at="2026-04-30T13:53:09 WIB" duration-ms="5175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -261,7 +261,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC003_OpeningCuraTwitter()[pri:0, instance:tests.HomeTests@49b0b76]" started-at="2026-04-30T13:21:57 WIB" name="TC003_OpeningCuraTwitter" finished-at="2026-04-30T13:22:02 WIB" duration-ms="5218" status="FAIL">
+        <test-method signature="TC003_OpeningCuraTwitter()[pri:0, instance:tests.HomeTests@be64738]" started-at="2026-04-30T13:53:09 WIB" name="TC003_OpeningCuraTwitter" finished-at="2026-04-30T13:53:14 WIB" duration-ms="5190" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for url to contain "x.com". Current url: "https://katalon-demo-cura.herokuapp.com/#"
@@ -269,8 +269,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46191}, goog:processID: 7072, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46191/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e75efc8bcfd775e33e5113686a65194f]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62568}, goog:processID: 7596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62568/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a5bea5e929a17c631494e9eddd90284]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "x.com". Current url: "https://katalon-demo-cura.herokuapp.com/#"
@@ -278,8 +278,8 @@ Session ID: e75efc8bcfd775e33e5113686a65194f]]>
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46191}, goog:processID: 7072, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46191/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e75efc8bcfd775e33e5113686a65194f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62568}, goog:processID: 7596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62568/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a5bea5e929a17c631494e9eddd90284
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
 at utils.Helper.waitUrlContains(Helper.java:83)
@@ -324,18 +324,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC003_OpeningCuraTwitter -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HomeTests@49b0b76]" started-at="2026-04-30T13:22:02 WIB" name="tearDown" finished-at="2026-04-30T13:22:02 WIB" duration-ms="471" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HomeTests@be64738]" started-at="2026-04-30T13:53:14 WIB" name="tearDown" finished-at="2026-04-30T13:53:15 WIB" duration-ms="469" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC003_OpeningCuraTwitter status=FAILURE method=HomeTests.TC003_OpeningCuraTwitter()[pri:0, instance:tests.HomeTests@49b0b76] output={null}]]]>
+                <![CDATA[[TestResult name=TC003_OpeningCuraTwitter status=FAILURE method=HomeTests.TC003_OpeningCuraTwitter()[pri:0, instance:tests.HomeTests@be64738] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.HomeTests@49b0b76]" started-at="2026-04-30T13:22:02 WIB" name="setUp" finished-at="2026-04-30T13:22:06 WIB" duration-ms="3584" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.HomeTests@be64738]" started-at="2026-04-30T13:53:15 WIB" name="setUp" finished-at="2026-04-30T13:53:19 WIB" duration-ms="3891" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -346,7 +346,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC004_OpeningCuraDribbble()[pri:0, instance:tests.HomeTests@49b0b76]" started-at="2026-04-30T13:22:06 WIB" name="TC004_OpeningCuraDribbble" finished-at="2026-04-30T13:22:11 WIB" duration-ms="5240" status="FAIL">
+        <test-method signature="TC004_OpeningCuraDribbble()[pri:0, instance:tests.HomeTests@be64738]" started-at="2026-04-30T13:53:19 WIB" name="TC004_OpeningCuraDribbble" finished-at="2026-04-30T13:53:24 WIB" duration-ms="5171" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for url to contain "dribble.com". Current url: "https://katalon-demo-cura.herokuapp.com/#"
@@ -354,8 +354,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:47439}, goog:processID: 18272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:47439/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: be7d60ac32387fbdef4e8be077192ac7]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42974}, goog:processID: 8340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:42974/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eaa8d0cf5b3c96df59034bf281efb452]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "dribble.com". Current url: "https://katalon-demo-cura.herokuapp.com/#"
@@ -363,8 +363,8 @@ Session ID: be7d60ac32387fbdef4e8be077192ac7]]>
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:47439}, goog:processID: 18272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:47439/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: be7d60ac32387fbdef4e8be077192ac7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42974}, goog:processID: 8340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:42974/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eaa8d0cf5b3c96df59034bf281efb452
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
 at utils.Helper.waitUrlContains(Helper.java:83)
@@ -409,11 +409,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC004_OpeningCuraDribbble -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HomeTests@49b0b76]" started-at="2026-04-30T13:22:11 WIB" name="tearDown" finished-at="2026-04-30T13:22:12 WIB" duration-ms="564" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HomeTests@be64738]" started-at="2026-04-30T13:53:24 WIB" name="tearDown" finished-at="2026-04-30T13:53:24 WIB" duration-ms="470" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC004_OpeningCuraDribbble status=FAILURE method=HomeTests.TC004_OpeningCuraDribbble()[pri:0, instance:tests.HomeTests@49b0b76] output={null}]]]>
+                <![CDATA[[TestResult name=TC004_OpeningCuraDribbble status=FAILURE method=HomeTests.TC004_OpeningCuraDribbble()[pri:0, instance:tests.HomeTests@be64738] output={null}]]]>
               </value>
             </param>
           </params>
@@ -422,11 +422,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- tearDown -->
       </class> <!-- tests.HomeTests -->
       <class name="tests.AuthTests">
-        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.AuthTests@22a637e7]" started-at="2026-04-30T13:20:55 WIB" name="setUpReport" finished-at="2026-04-30T13:20:55 WIB" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:51:37 WIB" name="setUpReport" finished-at="2026-04-30T13:51:37 WIB" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@22a637e7]" started-at="2026-04-30T13:20:55 WIB" name="setUp" finished-at="2026-04-30T13:21:00 WIB" duration-ms="4614" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:51:37 WIB" name="setUp" finished-at="2026-04-30T13:51:42 WIB" duration-ms="4799" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -437,22 +437,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC008_VerifyLoginPage()[pri:0, instance:tests.AuthTests@22a637e7]" started-at="2026-04-30T13:21:00 WIB" name="TC008_VerifyLoginPage" finished-at="2026-04-30T13:21:01 WIB" duration-ms="727" status="PASS">
+        <test-method signature="TC008_VerifyLoginPage()[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:51:42 WIB" name="TC008_VerifyLoginPage" finished-at="2026-04-30T13:51:42 WIB" duration-ms="815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC008_VerifyLoginPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@22a637e7]" started-at="2026-04-30T13:21:01 WIB" name="tearDown" finished-at="2026-04-30T13:21:01 WIB" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:51:42 WIB" name="tearDown" finished-at="2026-04-30T13:51:43 WIB" duration-ms="129" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC008_VerifyLoginPage status=SUCCESS method=AuthTests.TC008_VerifyLoginPage()[pri:0, instance:tests.AuthTests@22a637e7] output={null}]]]>
+                <![CDATA[[TestResult name=TC008_VerifyLoginPage status=SUCCESS method=AuthTests.TC008_VerifyLoginPage()[pri:0, instance:tests.AuthTests@2473d930] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@22a637e7]" started-at="2026-04-30T13:21:01 WIB" name="setUp" finished-at="2026-04-30T13:21:04 WIB" duration-ms="3675" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:51:43 WIB" name="setUp" finished-at="2026-04-30T13:51:46 WIB" duration-ms="3782" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -463,22 +463,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC009_LoginSuccess()[pri:0, instance:tests.AuthTests@22a637e7]" started-at="2026-04-30T13:21:04 WIB" name="TC009_LoginSuccess" finished-at="2026-04-30T13:21:06 WIB" duration-ms="1484" status="PASS">
+        <test-method signature="TC009_LoginSuccess()[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:51:46 WIB" name="TC009_LoginSuccess" finished-at="2026-04-30T13:51:48 WIB" duration-ms="1572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC009_LoginSuccess -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@22a637e7]" started-at="2026-04-30T13:21:06 WIB" name="tearDown" finished-at="2026-04-30T13:21:06 WIB" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:51:48 WIB" name="tearDown" finished-at="2026-04-30T13:51:48 WIB" duration-ms="122" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC009_LoginSuccess status=SUCCESS method=AuthTests.TC009_LoginSuccess()[pri:0, instance:tests.AuthTests@22a637e7] output={null}]]]>
+                <![CDATA[[TestResult name=TC009_LoginSuccess status=SUCCESS method=AuthTests.TC009_LoginSuccess()[pri:0, instance:tests.AuthTests@2473d930] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@22a637e7]" started-at="2026-04-30T13:21:06 WIB" name="setUp" finished-at="2026-04-30T13:21:10 WIB" duration-ms="4008" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:51:48 WIB" name="setUp" finished-at="2026-04-30T13:51:52 WIB" duration-ms="4234" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -489,22 +489,152 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC010_LogoutSuccess()[pri:0, instance:tests.AuthTests@22a637e7]" started-at="2026-04-30T13:21:10 WIB" name="TC010_LogoutSuccess" finished-at="2026-04-30T13:21:12 WIB" duration-ms="2303" status="PASS">
+        <test-method signature="TC010_LogoutSuccess()[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:51:52 WIB" name="TC010_LogoutSuccess" finished-at="2026-04-30T13:51:55 WIB" duration-ms="2334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC010_LogoutSuccess -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@22a637e7]" started-at="2026-04-30T13:21:12 WIB" name="tearDown" finished-at="2026-04-30T13:21:12 WIB" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:51:55 WIB" name="tearDown" finished-at="2026-04-30T13:51:55 WIB" duration-ms="140" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC010_LogoutSuccess status=SUCCESS method=AuthTests.TC010_LogoutSuccess()[pri:0, instance:tests.AuthTests@22a637e7] output={null}]]]>
+                <![CDATA[[TestResult name=TC010_LogoutSuccess status=SUCCESS method=AuthTests.TC010_LogoutSuccess()[pri:0, instance:tests.AuthTests@2473d930] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.AuthTests@22a637e7]" started-at="2026-04-30T13:22:12 WIB" name="tearDownReport" finished-at="2026-04-30T13:22:12 WIB" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:51:55 WIB" name="setUp" finished-at="2026-04-30T13:51:59 WIB" duration-ms="3784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AuthTests.TC011_LoginFailedWrongUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC011_LoginFailedWrongUsername()[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:51:59 WIB" name="TC011_LoginFailedWrongUsername" finished-at="2026-04-30T13:52:00 WIB" duration-ms="1629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC011_LoginFailedWrongUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:00 WIB" name="tearDown" finished-at="2026-04-30T13:52:00 WIB" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC011_LoginFailedWrongUsername status=SUCCESS method=AuthTests.TC011_LoginFailedWrongUsername()[pri:0, instance:tests.AuthTests@2473d930] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:00 WIB" name="setUp" finished-at="2026-04-30T13:52:04 WIB" duration-ms="3827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AuthTests.TC012_LoginFailedWrongPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC012_LoginFailedWrongPassword()[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:04 WIB" name="TC012_LoginFailedWrongPassword" finished-at="2026-04-30T13:52:06 WIB" duration-ms="1530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC012_LoginFailedWrongPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:06 WIB" name="tearDown" finished-at="2026-04-30T13:52:06 WIB" duration-ms="143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC012_LoginFailedWrongPassword status=SUCCESS method=AuthTests.TC012_LoginFailedWrongPassword()[pri:0, instance:tests.AuthTests@2473d930] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:06 WIB" name="setUp" finished-at="2026-04-30T13:52:09 WIB" duration-ms="3636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AuthTests.TC013_LoginFailedEmptyUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC013_LoginFailedEmptyUsername()[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:09 WIB" name="TC013_LoginFailedEmptyUsername" finished-at="2026-04-30T13:52:11 WIB" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC013_LoginFailedEmptyUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:11 WIB" name="tearDown" finished-at="2026-04-30T13:52:11 WIB" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC013_LoginFailedEmptyUsername status=SUCCESS method=AuthTests.TC013_LoginFailedEmptyUsername()[pri:0, instance:tests.AuthTests@2473d930] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:11 WIB" name="setUp" finished-at="2026-04-30T13:52:15 WIB" duration-ms="3876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AuthTests.TC014_LoginFailedEmptyPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC014_LoginFailedEmptyPassword()[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:15 WIB" name="TC014_LoginFailedEmptyPassword" finished-at="2026-04-30T13:52:17 WIB" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC014_LoginFailedEmptyPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:17 WIB" name="tearDown" finished-at="2026-04-30T13:52:17 WIB" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC014_LoginFailedEmptyPassword status=SUCCESS method=AuthTests.TC014_LoginFailedEmptyPassword()[pri:0, instance:tests.AuthTests@2473d930] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:17 WIB" name="setUp" finished-at="2026-04-30T13:52:21 WIB" duration-ms="4084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AuthTests.TC015_LoginFailedEmptyCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC015_LoginFailedEmptyCredentials()[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:21 WIB" name="TC015_LoginFailedEmptyCredentials" finished-at="2026-04-30T13:52:22 WIB" duration-ms="1509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC015_LoginFailedEmptyCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:52:22 WIB" name="tearDown" finished-at="2026-04-30T13:52:22 WIB" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC015_LoginFailedEmptyCredentials status=SUCCESS method=AuthTests.TC015_LoginFailedEmptyCredentials()[pri:0, instance:tests.AuthTests@2473d930] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.AuthTests@2473d930]" started-at="2026-04-30T13:53:24 WIB" name="tearDownReport" finished-at="2026-04-30T13:53:24 WIB" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->

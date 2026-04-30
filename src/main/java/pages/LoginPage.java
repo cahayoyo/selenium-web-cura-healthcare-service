@@ -90,6 +90,7 @@ public class LoginPage {
 
         buttonLogin.click();
         
+        Helper.waitVisible(driver, pLoginFailed, 5);
         Helper.verifyElementDisplayed(pLoginFailed, "H2 Warning Login Failed");
         Helper.verifyElementEqualsText(pLoginFailed, "Login failed! Please ensure the username and password are valid.", "H2 Warning Login Failed");
         
