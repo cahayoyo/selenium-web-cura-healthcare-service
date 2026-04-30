@@ -44,9 +44,6 @@ public class BaseTest {
 		if(result.getStatus() == ITestResult.FAILURE) {
 			String screenshotPath = ExtentReportManager.captureScreenshot(driver, "DEFECT");
 			test.fail("TC Failed - Check Screenshot", MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
-		}else if(result.getStatus() == ITestResult.SUCCESS) {
-			String screenshotPath = ExtentReportManager.captureScreenshot(driver, "PASSED");
-			test.info("TC Failed - Check Screenshot", MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
 		}
 		
 		if(driver != null) {

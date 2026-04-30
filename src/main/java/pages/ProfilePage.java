@@ -1,23 +1,33 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class ProfilePage {
+
     WebDriver driver;
 
-    private By h2Profile = By.xpath("//h2[normalize-space()='Profile']");
-    private By pUnderConstruction = By.xpath("//p[normalize-space()='Under construction.']");
-    private By buttonGoToHomepage = By.xpath("//a[@class='btn btn-default']");
-    
+    @FindBy(xpath = "//h2[normalize-space()='Profile']")
+    WebElement h2Profile;
+
+    @FindBy(xpath = "//p[normalize-space()='Under construction.']")
+    WebElement pUnderConstruction;
+
+    @FindBy(xpath = "//a[@class='btn btn-default']")
+    WebElement buttonGoToHomepage;
+
     public ProfilePage(WebDriver driver){
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
-    public WebElement getH2Profile() { return driver.findElement(h2Profile); }
-    public WebElement getPUnderConstruction() { return driver.findElement(pUnderConstruction); }
-    public WebElement getButtonGoToHomepage() { return driver.findElement(buttonGoToHomepage); }
+    public WebElement getH2Profile() { return h2Profile; }
+    public WebElement getPUnderConstruction() { return pUnderConstruction; }
+    public WebElement getButtonGoToHomepage() { return buttonGoToHomepage; }
 
-    public void clickButtonGoToHomepage() { getButtonGoToHomepage().click(); }
+    public void clickButtonGoToHomepage() {
+        buttonGoToHomepage.click();
+    }
 }

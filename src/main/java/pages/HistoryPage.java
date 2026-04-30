@@ -1,43 +1,69 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class HistoryPage {
+
     WebDriver driver;
 
-    private By h2History = By.xpath("//h2[normalize-space()='History']");
-    private By pNoAppointment = By.xpath("//p[normalize-space()='No appointment.']");
-    private By panelHeading = By.xpath("//div[@class='panel-heading']");
-    private By labelFacility = By.xpath("//label[@for='facility']");
-    private By pFacility = By.xpath("//p[@id='facility']");
-    private By labelHospitalReadmission = By.xpath("//label[@for='hospital_readmission']");
-    private By pHospitalReadmission = By.xpath("//p[@id='hospital_readmission']");
-    private By labelProgram = By.xpath("//label[@for='program']");
-    private By pProgram = By.xpath("//p[@id='program']");
-    private By labelComment = By.xpath("//label[@for='comment']");
-    private By pComment = By.xpath("//p[@id='comment']");
-    private By buttonGoToHomepage = By.xpath("//a[@class='btn btn-default']");
-    
+    @FindBy(xpath = "//h2[normalize-space()='History']")
+    WebElement h2History;
+
+    @FindBy(xpath = "//p[normalize-space()='No appointment.']")
+    WebElement pNoAppointment;
+
+    @FindBy(xpath = "//div[@class='panel-heading']")
+    WebElement panelHeading;
+
+    @FindBy(xpath = "//label[@for='facility']")
+    WebElement labelFacility;
+
+    @FindBy(xpath = "//p[@id='facility']")
+    WebElement pFacility;
+
+    @FindBy(xpath = "//label[@for='hospital_readmission']")
+    WebElement labelHospitalReadmission;
+
+    @FindBy(xpath = "//p[@id='hospital_readmission']")
+    WebElement pHospitalReadmission;
+
+    @FindBy(xpath = "//label[@for='program']")
+    WebElement labelProgram;
+
+    @FindBy(xpath = "//p[@id='program']")
+    WebElement pProgram;
+
+    @FindBy(xpath = "//label[@for='comment']")
+    WebElement labelComment;
+
+    @FindBy(xpath = "//p[@id='comment']")
+    WebElement pComment;
+
+    @FindBy(xpath = "//a[@class='btn btn-default']")
+    WebElement buttonGoToHomepage;
+
     public HistoryPage(WebDriver driver){
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
-    public WebElement getH2History() { return driver.findElement(h2History); }
-    public WebElement getPNoAppointment() { return driver.findElement(pNoAppointment); }
-    public WebElement getPanelHeading() { return driver.findElement(panelHeading); }
-    public WebElement getLabelFacility() { return driver.findElement(labelFacility); }
-    public WebElement getPFacility() { return driver.findElement(pFacility); }
-    public WebElement getLabelHospitalReadmission() { return driver.findElement(labelHospitalReadmission); }
-    public WebElement getPHospitalReadmission() { return driver.findElement(pHospitalReadmission); }
-    public WebElement getLabelProgram() { return driver.findElement(labelProgram); }
-    public WebElement getPProgram() { return driver.findElement(pProgram); }
-    public WebElement getLabelComment() { return driver.findElement(labelComment); }
-    public WebElement getPComment() { return driver.findElement(pComment); }
-    public WebElement getButtonGoToHomepage() { return driver.findElement(buttonGoToHomepage); }
+    public WebElement getH2History() { return h2History; }
+    public WebElement getPNoAppointment() { return pNoAppointment; }
+    public WebElement getPanelHeading() { return panelHeading; }
+    public WebElement getLabelFacility() { return labelFacility; }
+    public WebElement getPFacility() { return pFacility; }
+    public WebElement getLabelHospitalReadmission() { return labelHospitalReadmission; }
+    public WebElement getPHospitalReadmission() { return pHospitalReadmission; }
+    public WebElement getLabelProgram() { return labelProgram; }
+    public WebElement getPProgram() { return pProgram; }
+    public WebElement getLabelComment() { return labelComment; }
+    public WebElement getPComment() { return pComment; }
+    public WebElement getButtonGoToHomepage() { return buttonGoToHomepage; }
 
     public void clickButtonGoToHomepage() {
-        getButtonGoToHomepage().click();
+        buttonGoToHomepage.click();
     }
 }

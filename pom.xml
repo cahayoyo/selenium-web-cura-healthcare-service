@@ -7,6 +7,7 @@
 	<version>1.0</version>
 
 	<dependencies>
+	
 		<!-- Source:
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -56,6 +57,7 @@
 			<version>2.22.0</version>
 			<scope>compile</scope>
 		</dependency>
+		
 	</dependencies>
 
 	<properties>

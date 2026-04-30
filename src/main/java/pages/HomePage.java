@@ -1,40 +1,95 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import utils.Helper;
 
 public class HomePage {
 	WebDriver driver;
 
-	private By h1Title = By.cssSelector(".text-vertical-center h1");
-	private By h3Title = By.cssSelector(".text-vertical-center h3");
-	private By btnMakeAppointment = By.id("btn-make-appointment");
+	@FindBy(css=".text-vertical-center h1")
+	WebElement curaH1;
+	@FindBy(css=".text-vertical-center h3")
+	WebElement weCareH3;
+	@FindBy(id="btn-make-appointment")
+	WebElement buttonMakeAppointment;
 	
-	private By footerTitle = By.tagName("strong");
-	private By footerAddress = By.xpath("//footer//p[1]");
-	private By footerPhone = By.xpath("//footer//ul[@class='list-unstyled']//li[1]");
-	private By footerEmail = By.xpath("//footer//ul[@class='list-unstyled']//li[2]");
-	private By footerCopyright = By.className("text-muted");
-
-    private By fbIcon = By.className("fa-facebook");
-    private By twitterIcon = By.className("fa-twitter");
-    private By dribbbleIcon = By.className("fa-dribbble");
-    
-    public HomePage(WebDriver driver) {
+	@FindBy(tagName="strong")
+	WebElement curaFooter;
+	@FindBy(xpath="//footer//p[1]")
+	WebElement addressFooter;
+	@FindBy(xpath="//footer//ul[@class='list-unstyled']//li[1]")
+	WebElement phoneFooter;
+	@FindBy(xpath="//footer//ul[@class='list-unstyled']//li[2]")
+	WebElement emailFooter;
+	
+	@FindBy(className="fa-facebook")
+	WebElement facebookIcon;
+	@FindBy(className="fa-twitter")
+	WebElement xIcon;
+	@FindBy(className="fa-dribbble")
+	WebElement dribbleIcon;
+	
+	@FindBy(className="text-muted")
+	WebElement copyrightFooter;
+	
+	public HomePage(WebDriver driver) {
     	this.driver = driver;
+    	PageFactory.initElements(driver, this);
     }
+	
+	public WebElement getCuraH1() { return curaH1; }
+	public WebElement getWeCareH3() { return weCareH3; }
+	public WebElement getButtonMakeAppointment() { return buttonMakeAppointment; }
 
-    public WebElement getH1() { return driver.findElement(h1Title); }
-    public WebElement getH3() { return driver.findElement(h3Title); }
-    public WebElement getBtnMakeAppointment() { return driver.findElement(btnMakeAppointment); }
-    public WebElement getFooterTitle() { return driver.findElement(footerTitle); }
-    public WebElement getFooterAddress() { return driver.findElement(footerAddress); }
-    public WebElement getFooterPhone() { return driver.findElement(footerPhone); }
-    public WebElement getFooterEmail() { return driver.findElement(footerEmail); }
-    public WebElement getFooterCopyright() { return driver.findElement(footerCopyright); }
-    public WebElement getFbIcon() { return driver.findElement(fbIcon); }
-    public WebElement getTwitterIcon() { return driver.findElement(twitterIcon); }
-    public WebElement getDribbbleIcon() { return driver.findElement(dribbbleIcon); }
+	public WebElement getCuraFooter() { return curaFooter; }
+	public WebElement getAddressFooter() { return addressFooter; }
+	public WebElement getPhoneFooter() { return phoneFooter; }
+	public WebElement getEmailFooter() { return emailFooter; }
 
+	public WebElement getFacebookIcon() { return facebookIcon; }
+	public WebElement getXIcon() { return xIcon; }
+	public WebElement getDribbleIcon() { return dribbleIcon; }
+
+	public WebElement getCopyrightFooter() { return copyrightFooter; }
+	
+	public void verifyHomePageElements() {
+        Helper.verifyElementEqualsText(curaH1, "CURA Healthcare Service", "Header H1");
+        Helper.verifyElementEqualsText(weCareH3, "We Care About Your Health", "Header H3");
+
+        Helper.verifyElementEqualsText(buttonMakeAppointment, "Make Appointment", "Button Make Appointment");
+
+        Helper.verifyElementEqualsText(curaFooter, "CURA Healthcare Service", "Footer Title");
+
+        Helper.verifyElementContainsText(addressFooter, "Atlanta 550 Pharr Road NE Suite 525", "Footer Address");
+        Helper.verifyElementContainsText(phoneFooter, "(678) 813-1KMS", "Footer Phone");
+        Helper.verifyElementEqualsText(emailFooter, "info@katalon.com", "Footer Email");
+
+        Helper.verifyElementDisplayed(facebookIcon, "Icon Facebook");
+        Helper.verifyElementDisplayed(xIcon, "Icon X");
+        Helper.verifyElementDisplayed(dribbleIcon, "Icon Dribbble");
+        
+        Helper.verifyElementContainsText(copyrightFooter, "CURA Healthcare Service 2026", "Footer Copyright");
+	}
+	
+	public void clickFacebook() {
+		Helper.waitVisible(driver, facebookIcon, 5);
+		Helper.waitClickable(driver, facebookIcon, 5);
+		facebookIcon.click();
+	}
+	
+	public void clickX() {
+		Helper.waitVisible(driver, xIcon, 5);
+		Helper.waitClickable(driver, xIcon, 5);
+		xIcon.click();
+	}
+	
+	public void clickDribble() {
+		Helper.waitVisible(driver, dribbleIcon, 5);
+		Helper.waitClickable(driver, dribbleIcon, 5);
+		dribbleIcon.click();
+	}
 }

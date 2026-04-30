@@ -9,6 +9,7 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.ProfilePage;
 import utils.Config;
+import utils.ExtentReportManager;
 import utils.Helper;
 import utils.Log;
 
@@ -17,6 +18,7 @@ public class DropDownTests extends BaseTest {
 	@Test
 	public void TC005_OpenCURAHomeViaCURAHealthCareButton() {
 		Log.info("=== Running: TC005_Open CURA Home via CURA Healthcare button ===");
+		test = ExtentReportManager.createTest("TC005_OpenCURAHomeViaCURAHealthCareButton");
 
 		Log.info("Step: Navigate to Login Page first.");
 
@@ -33,15 +35,16 @@ public class DropDownTests extends BaseTest {
 		String expectedHomeUrl = Config.BASE_URL;
 		Helper.verifyEqualsUrl(driver, expectedHomeUrl, "CURA Home via Brand Button");
 
-		Helper.verifyElementEqualsText(homePage.getH1(), "CURA Healthcare Service", "Header H1 after redirection");
+		Helper.verifyElementEqualsText(homePage.getCuraH1(), "CURA Healthcare Service", "Header H1 after redirection");
 
 		Log.info("=== TC005 Finished ===");
+		test.pass("TC005_OpenCURAHomeViaCURAHealthCareButton PASSED");
 	}
 
 	@Test
 	public void TC006_OpenCURAHomeViaHomeButton() {
 		Log.info("=== Running: TC006_Open CURA Home via Home button ===");
-
+		test = ExtentReportManager.createTest("TC006_OpenCURAHomeViaHomeButton");
 
 		HomePage homePage = new HomePage(driver);
 		DropDown dropDown = new DropDown(driver);
@@ -56,16 +59,17 @@ public class DropDownTests extends BaseTest {
 		String expectedHomeUrl = Config.BASE_URL;
 		Helper.verifyEqualsUrl(driver, expectedHomeUrl, "CURA Home via Home Button");
 
-		Helper.verifyElementEqualsText(homePage.getH1(), "CURA Healthcare Service", "Header H1 after redirection");
+		Helper.verifyElementEqualsText(homePage.getCuraH1(), "CURA Healthcare Service", "Header H1 after redirection");
 
 		Log.info("=== TC006 Finished ===");
-
+		test.pass("TC006_OpenCURAHomeViaHomeButton PASSED");
 	}
 	
 	@Test
 	public void TC007_OpenLoginViaLoginButton() { 
 		Log.info("=== Running: TC007_Open Login via Login button ===");
-
+		test = ExtentReportManager.createTest("TC007_OpenLoginViaLoginButton");
+		
 		DropDown dropDown = new DropDown(driver);
 		LoginPage login = new LoginPage(driver);
 
@@ -82,12 +86,13 @@ public class DropDownTests extends BaseTest {
 		Helper.verifyElementEqualsText(login.geth2Login(), "Login", "Header H2 Login");
 
 		Log.info("=== TC007 Finished ===");
-
+		test.pass("TC007_OpenLoginViaLoginButton PASSED");
 	}
 	
 	@Test
 	public void TC023_OpenHistoryViaHistoryButton() {
 		Log.info("=== Running: TC023_Open History via History button ===");
+		test = ExtentReportManager.createTest("TC023_OpenHistoryViaHistoryButton");
 		
 		DropDown dropDown = new DropDown(driver);
 		LoginPage login = new LoginPage(driver);
@@ -125,12 +130,13 @@ public class DropDownTests extends BaseTest {
 		Helper.verifyElementEqualsText(history.getH2History(), "History", "Header H2 History");
 
 		Log.info("=== TC023 Finished ===");
-
+		test.pass("TC023_OpenHistoryViaHistoryButton PASSED");
 	}
 	
 	@Test
 	public void TC024_OpenProfileViaProfileButton() {
 		Log.info("=== Running: TC024_Open Profile via Profile button ===");
+		test = ExtentReportManager.createTest("TC024_OpenProfileViaProfileButton");
 		
 		DropDown dropDown = new DropDown(driver);
 		LoginPage login = new LoginPage(driver);
@@ -168,6 +174,6 @@ public class DropDownTests extends BaseTest {
 		Helper.verifyElementEqualsText(profile.getH2Profile(), "Profile", "Header H2 Profile");
 
 		Log.info("=== TC024 Finished ===");
-
+		test.pass("TC024_OpenProfileViaProfileButton PASSED");
 	}
 }
