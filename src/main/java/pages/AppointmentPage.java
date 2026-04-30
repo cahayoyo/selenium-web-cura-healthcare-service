@@ -158,7 +158,7 @@ public class AppointmentPage {
     	
     	checkboxHospitalReadmission.click();
     	radioMedicaid.click();
-    	inputVisitDate.sendKeys("21/09/1999");
+    	inputVisitDate.sendKeys(Config.APPOINTMENT_VISIT_DATE_INVALID);
     	textareaComment.sendKeys(Config.APPOINTMENT_COMMENT);
     	buttonBookAppointment.click();
     	
