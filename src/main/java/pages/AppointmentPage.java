@@ -4,6 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
+import utils.Config;
+import utils.Helper;
 
 public class AppointmentPage {
 
@@ -87,16 +91,80 @@ public class AppointmentPage {
     public void clickRadioMedicare() { radioMedicare.click(); }
     public void clickRadioMedicaid() { radioMedicaid.click(); }
     public void clickRadioNone() { radioNone.click(); }
-
-    public void setVisitDate(String date) {
-        inputVisitDate.clear();
-        inputVisitDate.sendKeys(date);
-    }
-
-    public void setComment(String comment) {
-        textareaComment.clear();
-        textareaComment.sendKeys(comment);
-    }
-
     public void clickButtonBookAppointment() { buttonBookAppointment.click(); }
+    
+    public void verifyAppointmentPageElements() {
+        Helper.waitUrlContains(driver, Config.BASE_URL_APPOINTMENT, 10);
+        Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
+        
+        Helper.verifyElementEqualsText(h2MakeAppointment, "Make Appointment", "H2 Make Appointment");
+        
+        Helper.verifyElementEqualsText(labelFacility, "Facility", "Label Facility");
+        Helper.verifyElementDisplayed(selectFacility, "Select DropDown Facility");
+        
+        Helper.verifyElementDisplayed(checkboxHospitalReadmission, "Checkbox Hospital Readmission");
+        Helper.verifyElementEqualsText(labelHospitalReadmission, "Apply for hospital readmission", "Label Hospital Readmission");
+        
+        Helper.verifyElementEqualsText(labelHealthcareProgram, "Healthcare Program", null);
+        Helper.verifyElementDisplayed(radioMedicare, "Radio Medicare");
+        Helper.verifyElementEqualsText(labelMedicare, "Medicare", "Label Medicare");
+        Helper.verifyElementDisplayed(radioMedicaid, "Radio Medicaid");
+        Helper.verifyElementEqualsText(labelMedicaid, "Medicaid", "Label Medicaid");
+        Helper.verifyElementDisplayed(radioNone, "Radio None");
+        Helper.verifyElementEqualsText(labelNone, "None", "Label None");
+        
+        Helper.verifyElementEqualsText(labelVisitDate, "Visit Date (Required)", "Label Visit Date");
+        Helper.verifyElementDisplayed(inputVisitDate, "Input Visit Date");
+        
+        Helper.verifyElementEqualsText(labelComment, "Comment", "Label Comment");
+        Helper.verifyElementDisplayed(textareaComment, "Text Area Comment");
+        
+        Helper.verifyElementDisplayed(buttonBookAppointment, "Button Book Appointment");
+        Helper.verifyElementEqualsText(buttonBookAppointment, "Book Appointment", "Button Book Appointment");
+	}
+
+    public void fillingFormAppointmentSuccess() {
+    	Select select = new Select(selectFacility);
+    	select.selectByVisibleText(Config.APPOINTMENT_FACILITY);
+    	
+    	checkboxHospitalReadmission.click();
+    	radioMedicaid.click();
+    	inputVisitDate.sendKeys(Config.APPOINTMENT_VISIT_DATE);
+    	textareaComment.sendKeys(Config.APPOINTMENT_COMMENT);
+    	buttonBookAppointment.click();
+    	
+    	Helper.waitUrlContains(driver, "#summary", 10);
+    	Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT_SUMMARY, "Appointment Summary URL");
+    }
+    
+    public void fillingFormAppointmentFailedEmptyDate() {
+    	Select select = new Select(selectFacility);
+    	select.selectByVisibleText(Config.APPOINTMENT_FACILITY);
+    	
+    	checkboxHospitalReadmission.click();
+    	radioMedicaid.click();
+    	textareaComment.sendKeys(Config.APPOINTMENT_COMMENT);
+    	buttonBookAppointment.click();
+    	
+    	Helper.verifyValidationMessage(inputVisitDate, "Please fill out this field", "Visit Date");
+    	
+    	Helper.waitUrlContains(driver, Config.BASE_URL_APPOINTMENT, 10);
+    	Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
+    }
+    
+    public void fillingFormAppointmentFailedInvalidDate() {
+    	Select select = new Select(selectFacility);
+    	select.selectByVisibleText(Config.APPOINTMENT_FACILITY);
+    	
+    	checkboxHospitalReadmission.click();
+    	radioMedicaid.click();
+    	inputVisitDate.sendKeys("21/09/1999");
+    	textareaComment.sendKeys(Config.APPOINTMENT_COMMENT);
+    	buttonBookAppointment.click();
+    	
+    	Helper.waitUrlContains(driver, Config.BASE_URL_APPOINTMENT, 10);
+    	Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
+    }
+
+    
 }

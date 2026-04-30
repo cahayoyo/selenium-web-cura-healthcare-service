@@ -3,17 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.HomeTests">
+      <class name="tests.AppointmentTests">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="TC004_OpeningCuraDribbble"/>
-          <include name="TC003_OpeningCuraTwitter"/>
-          <include name="TC002_OpeningCuraFacebook"/>
+          <include name="TC_020AppointmentFailedInvalidDate"/>
           <include name="tearDownReport"/>
           <include name="setUpReport"/>
         </methods>
-      </class> <!-- tests.HomeTests -->
+      </class> <!-- tests.AppointmentTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,9 +1,12 @@
 package base;
 
 import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -31,8 +34,16 @@ public class BaseTest {
 	
 	@BeforeMethod
 	public void setUp(Method method) {
+		ChromeOptions options = new ChromeOptions();
+		Map<String, Object> prefs = new HashMap<String, Object>();
+		
+		prefs.put("profile.password_manager_leak_detection", false);
+		prefs.put("credentials_enable_service", false);
+		prefs.put("profile.password_manager_enabled", false);
+		options.setExperimentalOption("prefs", prefs);
+		
 		Log.info("=== Starting WebDriver ===");
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get(Config.BASE_URL);
 		Log.info("=== Browser Opened ===");

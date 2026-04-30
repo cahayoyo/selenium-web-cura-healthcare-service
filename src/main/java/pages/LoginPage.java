@@ -53,8 +53,8 @@ public class LoginPage {
     public void clickButtonLogin() { buttonLogin.click(); }
 
     public void verifyLoginPageElements() {
-        String expectedHomeUrl = Config.BASE_URL_LOGIN;
-        Helper.verifyEqualsUrl(driver, expectedHomeUrl, "Login via Login button Sidebar");
+    	Helper.waitUrlContains(driver, Config.BASE_URL_LOGIN, 10);
+        Helper.verifyEqualsUrl(driver, Config.BASE_URL_LOGIN, "Login via Login button Sidebar");
 
         Helper.verifyElementEqualsText(h2Login, "Login", "Header H2 Login");
 
@@ -77,7 +77,6 @@ public class LoginPage {
         buttonLogin.click();
         
         Helper.waitUrlContains(driver, "#appointment", 10);
-		
 		Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
     }
     
@@ -95,7 +94,6 @@ public class LoginPage {
         Helper.verifyElementEqualsText(pLoginFailed, "Login failed! Please ensure the username and password are valid.", "H2 Warning Login Failed");
         
         Helper.waitUrlContains(driver, Config.BASE_URL_LOGIN, 10);
-		
 		Helper.verifyEqualsUrl(driver, Config.BASE_URL_LOGIN, "Login URL");
     }
 }

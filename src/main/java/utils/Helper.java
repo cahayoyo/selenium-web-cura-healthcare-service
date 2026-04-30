@@ -78,6 +78,20 @@ public class Helper {
 		
     }
 	
+	public static void verifyValidationMessage(WebElement element, String expected, String elementName) {
+	    try {
+	        String actual = element.getAttribute("validationMessage");
+	        if (actual.contains(expected)) {
+	            Log.info("[PASS] " + elementName + " validation: " + expected);
+	        } else {
+	            Log.error("[FAIL] " + elementName + " validation mismatch. Actual: " + actual);
+	        }
+	    } catch (Exception e) {
+	        Log.error("[FAIL] Validation check failed on " + elementName);
+	    }
+	}
+	
+	
 	public static void waitUrlContains(WebDriver driver, String text, int seconds) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
 		wait.until(ExpectedConditions.urlContains(text));

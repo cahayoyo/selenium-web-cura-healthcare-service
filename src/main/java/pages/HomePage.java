@@ -58,6 +58,9 @@ public class HomePage {
 	public WebElement getCopyrightFooter() { return copyrightFooter; }
 	
 	public void verifyHomePageElements() {
+        Helper.waitUrlContains(driver, Config.BASE_URL, 10);
+        Helper.verifyEqualsUrl(driver, Config.BASE_URL, "Home URL");
+        
         Helper.verifyElementEqualsText(curaH1, "CURA Healthcare Service", "Header H1");
         Helper.verifyElementEqualsText(weCareH3, "We Care About Your Health", "Header H3");
 
@@ -74,8 +77,6 @@ public class HomePage {
         Helper.verifyElementDisplayed(dribbleIcon, "Icon Dribbble");
         
         Helper.verifyElementContainsText(copyrightFooter, "CURA Healthcare Service 2026", "Footer Copyright");
-        
-        Helper.verifyEqualsUrl(driver, Config.BASE_URL, "Home URL");
 	}
 	
 	public void clickFacebook() {

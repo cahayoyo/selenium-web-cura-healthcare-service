@@ -1,229 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-30T13:55:16 WIB" name="Default suite" finished-at="2026-04-30T13:56:03 WIB" duration-ms="47264">
+  <suite started-at="2026-04-30T15:11:30 WIB" name="Default suite" finished-at="2026-04-30T15:11:37 WIB" duration-ms="7332">
     <groups>
     </groups>
-    <test started-at="2026-04-30T13:55:16 WIB" name="Default test" finished-at="2026-04-30T13:56:03 WIB" duration-ms="47264">
-      <class name="tests.AuthTests">
-        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:16 WIB" name="setUpReport" finished-at="2026-04-30T13:55:16 WIB" duration-ms="160" status="PASS">
+    <test started-at="2026-04-30T15:11:30 WIB" name="Default test" finished-at="2026-04-30T15:11:37 WIB" duration-ms="7332">
+      <class name="tests.HistoryTests">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.HistoryTests@6025e1b6]" started-at="2026-04-30T15:11:30 WIB" name="setUpReport" finished-at="2026-04-30T15:11:30 WIB" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:16 WIB" name="setUp" finished-at="2026-04-30T13:55:20 WIB" duration-ms="4423" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.HistoryTests@6025e1b6]" started-at="2026-04-30T15:11:30 WIB" name="setUp" finished-at="2026-04-30T15:11:34 WIB" duration-ms="4585" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.AuthTests.TC008_VerifyLoginPage()]]>
+                <![CDATA[public void tests.HistoryTests.TC025_OpenHomePageViaHistoryPage()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC008_VerifyLoginPage()[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:20 WIB" name="TC008_VerifyLoginPage" finished-at="2026-04-30T13:55:21 WIB" duration-ms="810" status="PASS">
+        <test-method signature="TC025_OpenHomePageViaHistoryPage()[pri:0, instance:tests.HistoryTests@6025e1b6]" started-at="2026-04-30T15:11:34 WIB" name="TC025_OpenHomePageViaHistoryPage" finished-at="2026-04-30T15:11:37 WIB" duration-ms="2612" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC008_VerifyLoginPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:21 WIB" name="tearDown" finished-at="2026-04-30T13:55:21 WIB" duration-ms="142" status="PASS">
+        </test-method> <!-- TC025_OpenHomePageViaHistoryPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HistoryTests@6025e1b6]" started-at="2026-04-30T15:11:37 WIB" name="tearDown" finished-at="2026-04-30T15:11:37 WIB" duration-ms="110" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC008_VerifyLoginPage status=SUCCESS method=AuthTests.TC008_VerifyLoginPage()[pri:0, instance:tests.AuthTests@4c402120] output={null}]]]>
+                <![CDATA[[TestResult name=TC025_OpenHomePageViaHistoryPage status=SUCCESS method=HistoryTests.TC025_OpenHomePageViaHistoryPage()[pri:0, instance:tests.HistoryTests@6025e1b6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:21 WIB" name="setUp" finished-at="2026-04-30T13:55:26 WIB" duration-ms="4408" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.AuthTests.TC009_LoginSuccess()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="TC009_LoginSuccess()[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:26 WIB" name="TC009_LoginSuccess" finished-at="2026-04-30T13:55:27 WIB" duration-ms="1667" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC009_LoginSuccess -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:27 WIB" name="tearDown" finished-at="2026-04-30T13:55:27 WIB" duration-ms="124" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC009_LoginSuccess status=SUCCESS method=AuthTests.TC009_LoginSuccess()[pri:0, instance:tests.AuthTests@4c402120] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:27 WIB" name="setUp" finished-at="2026-04-30T13:55:32 WIB" duration-ms="4248" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.AuthTests.TC010_LogoutSuccess()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="TC010_LogoutSuccess()[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:32 WIB" name="TC010_LogoutSuccess" finished-at="2026-04-30T13:55:34 WIB" duration-ms="2290" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC010_LogoutSuccess -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:34 WIB" name="tearDown" finished-at="2026-04-30T13:55:34 WIB" duration-ms="134" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC010_LogoutSuccess status=SUCCESS method=AuthTests.TC010_LogoutSuccess()[pri:0, instance:tests.AuthTests@4c402120] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:34 WIB" name="setUp" finished-at="2026-04-30T13:55:38 WIB" duration-ms="4186" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.AuthTests.TC011_LoginFailedWrongUsername()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="TC011_LoginFailedWrongUsername()[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:38 WIB" name="TC011_LoginFailedWrongUsername" finished-at="2026-04-30T13:55:40 WIB" duration-ms="1543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC011_LoginFailedWrongUsername -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:40 WIB" name="tearDown" finished-at="2026-04-30T13:55:40 WIB" duration-ms="120" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC011_LoginFailedWrongUsername status=SUCCESS method=AuthTests.TC011_LoginFailedWrongUsername()[pri:0, instance:tests.AuthTests@4c402120] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:40 WIB" name="setUp" finished-at="2026-04-30T13:55:44 WIB" duration-ms="4212" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.AuthTests.TC012_LoginFailedWrongPassword()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="TC012_LoginFailedWrongPassword()[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:44 WIB" name="TC012_LoginFailedWrongPassword" finished-at="2026-04-30T13:55:46 WIB" duration-ms="1716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC012_LoginFailedWrongPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:46 WIB" name="tearDown" finished-at="2026-04-30T13:55:46 WIB" duration-ms="127" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC012_LoginFailedWrongPassword status=SUCCESS method=AuthTests.TC012_LoginFailedWrongPassword()[pri:0, instance:tests.AuthTests@4c402120] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:46 WIB" name="setUp" finished-at="2026-04-30T13:55:50 WIB" duration-ms="3708" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.AuthTests.TC013_LoginFailedEmptyUsername()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="TC013_LoginFailedEmptyUsername()[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:50 WIB" name="TC013_LoginFailedEmptyUsername" finished-at="2026-04-30T13:55:51 WIB" duration-ms="1507" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC013_LoginFailedEmptyUsername -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:51 WIB" name="tearDown" finished-at="2026-04-30T13:55:51 WIB" duration-ms="142" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC013_LoginFailedEmptyUsername status=SUCCESS method=AuthTests.TC013_LoginFailedEmptyUsername()[pri:0, instance:tests.AuthTests@4c402120] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:51 WIB" name="setUp" finished-at="2026-04-30T13:55:55 WIB" duration-ms="3538" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.AuthTests.TC014_LoginFailedEmptyPassword()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="TC014_LoginFailedEmptyPassword()[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:55 WIB" name="TC014_LoginFailedEmptyPassword" finished-at="2026-04-30T13:55:56 WIB" duration-ms="1568" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC014_LoginFailedEmptyPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:56 WIB" name="tearDown" finished-at="2026-04-30T13:55:57 WIB" duration-ms="128" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC014_LoginFailedEmptyPassword status=SUCCESS method=AuthTests.TC014_LoginFailedEmptyPassword()[pri:0, instance:tests.AuthTests@4c402120] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:55:57 WIB" name="setUp" finished-at="2026-04-30T13:56:01 WIB" duration-ms="4563" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.AuthTests.TC015_LoginFailedEmptyCredentials()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="TC015_LoginFailedEmptyCredentials()[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:56:01 WIB" name="TC015_LoginFailedEmptyCredentials" finished-at="2026-04-30T13:56:03 WIB" duration-ms="1804" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC015_LoginFailedEmptyCredentials -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:56:03 WIB" name="tearDown" finished-at="2026-04-30T13:56:03 WIB" duration-ms="122" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC015_LoginFailedEmptyCredentials status=SUCCESS method=AuthTests.TC015_LoginFailedEmptyCredentials()[pri:0, instance:tests.AuthTests@4c402120] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.AuthTests@4c402120]" started-at="2026-04-30T13:56:03 WIB" name="tearDownReport" finished-at="2026-04-30T13:56:03 WIB" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.HistoryTests@6025e1b6]" started-at="2026-04-30T15:11:37 WIB" name="tearDownReport" finished-at="2026-04-30T15:11:37 WIB" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
-      </class> <!-- tests.AuthTests -->
+      </class> <!-- tests.HistoryTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
