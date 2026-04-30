@@ -1,12 +1,15 @@
 package base;
 
 import java.lang.reflect.Method;
+import java.net.URL;
+import java.net.MalformedURLException;
 import java.util.HashMap;
 import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -33,7 +36,7 @@ public class BaseTest {
 	}
 	
 	@BeforeMethod
-	public void setUp(Method method) {
+	public void setUp(Method method) throws MalformedURLException {
 		ChromeOptions options = new ChromeOptions();
 		Map<String, Object> prefs = new HashMap<String, Object>();
 		
@@ -42,8 +45,12 @@ public class BaseTest {
 		prefs.put("profile.password_manager_enabled", false);
 		options.setExperimentalOption("prefs", prefs);
 		
+		options.addArguments("--no-sandbox");
+	    options.addArguments("--disable-dev-shm-usage");
+		
 		Log.info("=== Starting WebDriver ===");
-		driver = new ChromeDriver(options);
+		//driver = new ChromeDriver(options);
+		driver = new RemoteWebDriver(new URL("http://selenium-chrome:4444/wd/hub"), options );
 		driver.manage().window().maximize();
 		driver.get(Config.BASE_URL);
 		Log.info("=== Browser Opened ===");
