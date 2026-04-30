@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utils.Config;
 import utils.Helper;
 import utils.Log;
 
@@ -37,6 +38,11 @@ public class DropDown {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+    
+    HomePage home = new HomePage(driver);
+    LoginPage login = new LoginPage(driver);
+    HistoryPage history = new HistoryPage(driver);
+    ProfilePage profile = new ProfilePage(driver);
 
     public WebElement getMenuToggle() { return menuToggle; }
     public WebElement getLinkCuraHealthCare() { return linkCuraHealthCare; }
@@ -62,6 +68,10 @@ public class DropDown {
         Helper.waitClickable(driver, linkCuraHealthCare, 5);
         Log.info("Step: Clicked Link Cura HealthCare.");
         clickLinkCuraHealthCare();
+        
+        Helper.waitUrlContains(driver, Config.BASE_URL, 5);
+        Helper.verifyEqualsUrl(driver, Config.BASE_URL, "Home URL");
+        Helper.verifyElementEqualsText(home.curaH1, "CURA Healthcare Service", "Header H1 after redirection");
     }
 
     public void goToHomeViaHomeButton() {
@@ -72,6 +82,10 @@ public class DropDown {
         Helper.waitClickable(driver, linkHome, 5);
         Log.info("Step: Clicked Home button.");
         clickLinkHome();
+        
+        Helper.waitUrlContains(driver, Config.BASE_URL, 5);
+        Helper.verifyEqualsUrl(driver, Config.BASE_URL, "Home URL");
+        Helper.verifyElementEqualsText(home.curaH1, "CURA Healthcare Service", "Header H1 after redirection");
     }
     
     public void goToLoginPage() {
@@ -82,6 +96,10 @@ public class DropDown {
         Helper.waitClickable(driver, linkLogin, 5);
         Log.info("Step: Clicked Login button.");
         clickLinkLogin();
+        
+        Helper.waitUrlContains(driver, Config.BASE_URL_LOGIN, 5);
+        Helper.verifyEqualsUrl(driver, Config.BASE_URL_LOGIN, "Login URL");
+        Helper.verifyElementEqualsText(login.h2Login, "Login", "Header H2 Login");
     }
 
     public void goToHistory() {
@@ -92,6 +110,10 @@ public class DropDown {
         Helper.waitClickable(driver, linkHistory, 5);
         Log.info("Step: Clicked History button.");
         clickLinkHistory();
+        
+        Helper.waitUrlContains(driver, Config.BASE_URL_HISTORY, 5);
+        Helper.verifyEqualsUrl(driver, Config.BASE_URL_HISTORY, "History URL");
+        Helper.verifyElementEqualsText(history.h2History, "History", "Header H2 History");
     }
 
     public void goToProfile() {
@@ -102,6 +124,10 @@ public class DropDown {
         Helper.waitClickable(driver, linkProfile, 5);
         Log.info("Step: Clicked Profile button.");
         clickLinkProfile();
+        
+        Helper.waitUrlContains(driver, Config.BASE_URL_PROFILE, 5);
+        Helper.verifyEqualsUrl(driver, Config.BASE_URL_PROFILE, "Profile URL");
+        Helper.verifyElementEqualsText(profile.h2Profile, "Profile", "Header H2 Profile");
     }
     
     public void goLogout() {
@@ -112,6 +138,10 @@ public class DropDown {
         Helper.waitClickable(driver, linkLogout, 5);
         Log.info("Step: Clicked Logout button.");
         clickLinkLogout();
+        
+        Helper.waitUrlContains(driver, Config.BASE_URL, 5);
+        Helper.verifyEqualsUrl(driver, Config.BASE_URL, "Home URL");
+        Helper.verifyElementEqualsText(home.curaH1, "CURA Healthcare Service", "Header H1 after redirection");
     }
 
     

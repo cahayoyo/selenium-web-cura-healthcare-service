@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utils.Config;
 import utils.Helper;
 
 public class HomePage {
@@ -73,23 +74,34 @@ public class HomePage {
         Helper.verifyElementDisplayed(dribbleIcon, "Icon Dribbble");
         
         Helper.verifyElementContainsText(copyrightFooter, "CURA Healthcare Service 2026", "Footer Copyright");
+        
+        Helper.verifyEqualsUrl(driver, Config.BASE_URL, "Home URL");
 	}
 	
 	public void clickFacebook() {
 		Helper.waitVisible(driver, facebookIcon, 5);
 		Helper.waitClickable(driver, facebookIcon, 5);
 		facebookIcon.click();
+		
+		Helper.waitUrlContains(driver, "facebook.com", 5);
+		Helper.verifyContainsUrl(driver, "facebook.com", "Facebook");
 	}
 	
 	public void clickX() {
 		Helper.waitVisible(driver, xIcon, 5);
 		Helper.waitClickable(driver, xIcon, 5);
 		xIcon.click();
+		
+		Helper.waitUrlContains(driver, "x.com", 5);
+		Helper.verifyContainsUrl(driver, "x.com", "X");
 	}
 	
 	public void clickDribble() {
 		Helper.waitVisible(driver, dribbleIcon, 5);
 		Helper.waitClickable(driver, dribbleIcon, 5);
 		dribbleIcon.click();
+		
+		Helper.waitUrlContains(driver, "dribble.com", 5);
+		Helper.verifyContainsUrl(driver, "dribble.com", "Dribble");
 	}
 }

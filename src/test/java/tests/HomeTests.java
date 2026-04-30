@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 import base.BaseTest;
 import pages.HomePage;
 import utils.ExtentReportManager;
-import utils.Helper;
 import utils.Log;
 
 public class HomeTests extends BaseTest {
@@ -19,8 +18,8 @@ public class HomeTests extends BaseTest {
         
         home.verifyHomePageElements();
         
-        Log.info("=== TC001 Finished ===");
-        test.pass("TC001 PASSED");
+        Log.info("=== TC001_VerifyHomePage Finished ===");
+        test.pass("TC001_VerifyHomePage PASSED");
     }
     
 	@Test
@@ -31,10 +30,8 @@ public class HomeTests extends BaseTest {
         HomePage home = new HomePage(driver);
         home.clickFacebook();
 
-        Helper.verifyContainsUrl(driver, "facebook.com", "Facebook");
-        
-        Log.info("=== TC002 Finished ===");
-        test.pass("TC002 PASSED");
+        Log.info("=== TC002_OpeningCuraFacebook Finished ===");
+        test.pass("TC002_OpeningCuraFacebook PASSED");
     }
     
 	@Test
@@ -44,11 +41,9 @@ public class HomeTests extends BaseTest {
         
         HomePage home = new HomePage(driver);
         home.clickX();
-
-        Helper.verifyContainsUrl(driver, "x.com", "Twitter");
         
-        Log.info("=== TC003 Finished ===");
-        test.pass("TC003 PASSED");
+        Log.info("=== TC003_OpeningCuraTwitter Finished ===");
+        test.pass("TC003_OpeningCuraTwitter PASSED");
     }
 
 	@Test
@@ -58,10 +53,8 @@ public class HomeTests extends BaseTest {
         
         HomePage home = new HomePage(driver);
         home.clickDribble();
-
-        Helper.verifyContainsUrl(driver, "dribble.com", "Dribble");
         
-        Log.info("=== TC004 Finished ===");
-        test.pass("TC004 PASSED");
+        Log.info("=== TC004_OpeningCuraDribbble Finished ===");
+        test.pass("TC004_OpeningCuraDribbble PASSED");
     }
 }
