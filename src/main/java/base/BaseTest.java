@@ -49,8 +49,8 @@ public class BaseTest {
 	    options.addArguments("--disable-dev-shm-usage");
 		
 		Log.info("=== Starting WebDriver ===");
-		//driver = new ChromeDriver(options);
-		driver = new RemoteWebDriver(new URL("http://selenium-chrome:4444/wd/hub"), options );
+		driver = new ChromeDriver(options);
+//		driver = new RemoteWebDriver(new URL("http://selenium-chrome:4444/wd/hub"), options );
 		driver.manage().window().maximize();
 		driver.get(Config.BASE_URL);
 		Log.info("=== Browser Opened ===");

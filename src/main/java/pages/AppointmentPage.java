@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import org.testng.asserts.SoftAssert;
 import utils.Config;
 import utils.Helper;
 
@@ -93,37 +94,37 @@ public class AppointmentPage {
     public void clickRadioNone() { radioNone.click(); }
     public void clickButtonBookAppointment() { buttonBookAppointment.click(); }
     
-    public void verifyAppointmentPageElements() {
+    public void verifyAppointmentPageElements(SoftAssert softAssert) {
         Helper.waitUrlContains(driver, Config.BASE_URL_APPOINTMENT, 10);
-        Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
+        Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
         
-        Helper.verifyElementEqualsText(h2MakeAppointment, "Make Appointment", "H2 Make Appointment");
+        Helper.verifyElementEqualsText(softAssert,h2MakeAppointment, "Make Appointment", "H2 Make Appointment");
         
-        Helper.verifyElementEqualsText(labelFacility, "Facility", "Label Facility");
+        Helper.verifyElementEqualsText(softAssert,labelFacility, "Facility", "Label Facility");
         Helper.verifyElementDisplayed(selectFacility, "Select DropDown Facility");
         
         Helper.verifyElementDisplayed(checkboxHospitalReadmission, "Checkbox Hospital Readmission");
-        Helper.verifyElementEqualsText(labelHospitalReadmission, "Apply for hospital readmission", "Label Hospital Readmission");
+        Helper.verifyElementEqualsText(softAssert,labelHospitalReadmission, "Apply for hospital readmission", "Label Hospital Readmission");
         
-        Helper.verifyElementEqualsText(labelHealthcareProgram, "Healthcare Program", null);
+        Helper.verifyElementEqualsText(softAssert,labelHealthcareProgram, "Healthcare Program", null);
         Helper.verifyElementDisplayed(radioMedicare, "Radio Medicare");
-        Helper.verifyElementEqualsText(labelMedicare, "Medicare", "Label Medicare");
+        Helper.verifyElementEqualsText(softAssert,labelMedicare, "Medicare", "Label Medicare");
         Helper.verifyElementDisplayed(radioMedicaid, "Radio Medicaid");
-        Helper.verifyElementEqualsText(labelMedicaid, "Medicaid", "Label Medicaid");
+        Helper.verifyElementEqualsText(softAssert,labelMedicaid, "Medicaid", "Label Medicaid");
         Helper.verifyElementDisplayed(radioNone, "Radio None");
-        Helper.verifyElementEqualsText(labelNone, "None", "Label None");
+        Helper.verifyElementEqualsText(softAssert,labelNone, "None", "Label None");
         
-        Helper.verifyElementEqualsText(labelVisitDate, "Visit Date (Required)", "Label Visit Date");
+        Helper.verifyElementEqualsText(softAssert,labelVisitDate, "Visit Date (Required)", "Label Visit Date");
         Helper.verifyElementDisplayed(inputVisitDate, "Input Visit Date");
         
-        Helper.verifyElementEqualsText(labelComment, "Comment", "Label Comment");
+        Helper.verifyElementEqualsText(softAssert,labelComment, "Comment", "Label Comment");
         Helper.verifyElementDisplayed(textareaComment, "Text Area Comment");
         
         Helper.verifyElementDisplayed(buttonBookAppointment, "Button Book Appointment");
-        Helper.verifyElementEqualsText(buttonBookAppointment, "Book Appointment", "Button Book Appointment");
+        Helper.verifyElementEqualsText(softAssert,buttonBookAppointment, "Book Appointment", "Button Book Appointment");
 	}
 
-    public void fillingFormAppointmentSuccess() {
+    public void fillingFormAppointmentSuccess(SoftAssert softAssert) {
     	Select select = new Select(selectFacility);
     	select.selectByVisibleText(Config.APPOINTMENT_FACILITY);
     	
@@ -134,10 +135,10 @@ public class AppointmentPage {
     	buttonBookAppointment.click();
     	
     	Helper.waitUrlContains(driver, "#summary", 10);
-    	Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT_SUMMARY, "Appointment Summary URL");
+    	Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL_APPOINTMENT_SUMMARY, "Appointment Summary URL");
     }
     
-    public void fillingFormAppointmentFailedEmptyDate() {
+    public void fillingFormAppointmentFailedEmptyDate(SoftAssert softAssert) {
     	Select select = new Select(selectFacility);
     	select.selectByVisibleText(Config.APPOINTMENT_FACILITY);
     	
@@ -149,10 +150,10 @@ public class AppointmentPage {
     	Helper.verifyValidationMessage(inputVisitDate, "Please fill out this field", "Visit Date");
     	
     	Helper.waitUrlContains(driver, Config.BASE_URL_APPOINTMENT, 10);
-    	Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
+    	Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
     }
     
-    public void fillingFormAppointmentFailedInvalidDate() {
+    public void fillingFormAppointmentFailedInvalidDate(SoftAssert softAssert) {
     	Select select = new Select(selectFacility);
     	select.selectByVisibleText(Config.APPOINTMENT_FACILITY);
     	
@@ -163,7 +164,7 @@ public class AppointmentPage {
     	buttonBookAppointment.click();
     	
     	Helper.waitUrlContains(driver, Config.BASE_URL_APPOINTMENT, 10);
-    	Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
+    	Helper.verifyEqualsUrl(softAssert, driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
     }
 
     

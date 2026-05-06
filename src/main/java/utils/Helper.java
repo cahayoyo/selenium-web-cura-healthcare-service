@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.asserts.SoftAssert;
 
 public class Helper {
 	
@@ -21,8 +22,11 @@ public class Helper {
 	    }
 	}
 	
-	public static void verifyElementEqualsText(WebElement element, String expectedText, String elementName) {
+	public static void verifyElementEqualsText(SoftAssert softAssert, WebElement element, String expectedText, String elementName) {
 		try {
+            String actual = element.getText();
+            softAssert.assertEquals(actual, expectedText, elementName + " mismatch!");
+
 			if (element.isDisplayed() && element.getText().equals(expectedText)) {
 				Log.info("[PASS] " + elementName + " is correct.");
 			} else {
@@ -46,9 +50,11 @@ public class Helper {
         }
     }
 	
-	public static void verifyEqualsUrl(WebDriver driver, String expectedUrl, String platformName) {
+	public static void verifyEqualsUrl(SoftAssert softAssert, WebDriver driver, String expectedUrl, String platformName) {
         try {
         	String actualUrl = driver.getCurrentUrl();
+            softAssert.assertEquals(actualUrl, expectedUrl, platformName + " mismatch!");
+
             if (actualUrl.equals(expectedUrl)) {
                 Log.info("[PASS] - Redirected to " + platformName + ".");
             } else {
@@ -90,8 +96,7 @@ public class Helper {
 	        Log.error("[FAIL] Validation check failed on " + elementName);
 	    }
 	}
-	
-	
+
 	public static void waitUrlContains(WebDriver driver, String text, int seconds) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
 		wait.until(ExpectedConditions.urlContains(text));

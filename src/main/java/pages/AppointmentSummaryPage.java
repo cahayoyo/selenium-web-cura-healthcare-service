@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import org.testng.asserts.SoftAssert;
 import utils.Config;
 import utils.Helper;
 
@@ -72,29 +73,29 @@ public class AppointmentSummaryPage {
 
     public void clickButtonGoToHomepage() { buttonGoToHomepage.click(); }
     
-    public void verifyAppointmentSummaryPageElements() {
+    public void verifyAppointmentSummaryPageElements(SoftAssert softAssert) {
         Helper.waitUrlContains(driver, "#summary", 10);
-    	Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT_SUMMARY, "Appointment Summary URL");
+    	Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL_APPOINTMENT_SUMMARY, "Appointment Summary URL");
     	
-        Helper.verifyElementEqualsText(h2AppointmentConfirmation, "Appointment Confirmation", "H2 Appointment");
-        Helper.verifyElementEqualsText(pLead, "Please be informed that your appointment has been booked as following:", "P Please be informed");
+        Helper.verifyElementEqualsText(softAssert,h2AppointmentConfirmation, "Appointment Confirmation", "H2 Appointment");
+        Helper.verifyElementEqualsText(softAssert,pLead, "Please be informed that your appointment has been booked as following:", "P Please be informed");
         
-        Helper.verifyElementEqualsText(labelFacility, "Facility", "Label Facility");
-        Helper.verifyElementEqualsText(pFacility, Config.APPOINTMENT_FACILITY, "Selected Appointment Facility");
+        Helper.verifyElementEqualsText(softAssert,labelFacility, "Facility", "Label Facility");
+        Helper.verifyElementEqualsText(softAssert,pFacility, Config.APPOINTMENT_FACILITY, "Selected Appointment Facility");
         
-        Helper.verifyElementEqualsText(labelHospitalReadmission, "Apply for hospital readmission", "Label Hospital Readmission");
-        Helper.verifyElementEqualsText(pHospitalReadmission, "Yes", "Selected Hospital Readmission");
+        Helper.verifyElementEqualsText(softAssert,labelHospitalReadmission, "Apply for hospital readmission", "Label Hospital Readmission");
+        Helper.verifyElementEqualsText(softAssert,pHospitalReadmission, "Yes", "Selected Hospital Readmission");
         
-        Helper.verifyElementEqualsText(labelProgram, "Healthcare Program", "Label Healthcare");
-        Helper.verifyElementEqualsText(pProgram, Config.APPOINTMENT_HEALTHCARE_PROGRAM, "Selected Healthcare Program");
+        Helper.verifyElementEqualsText(softAssert,labelProgram, "Healthcare Program", "Label Healthcare");
+        Helper.verifyElementEqualsText(softAssert,pProgram, Config.APPOINTMENT_HEALTHCARE_PROGRAM, "Selected Healthcare Program");
         
-        Helper.verifyElementEqualsText(labelVisitDate, "Visit Date", "Label Visit Date");
-        Helper.verifyElementEqualsText(pVisitDate, Config.APPOINTMENT_VISIT_DATE, "Selected Visit Date");
+        Helper.verifyElementEqualsText(softAssert,labelVisitDate, "Visit Date", "Label Visit Date");
+        Helper.verifyElementEqualsText(softAssert,pVisitDate, Config.APPOINTMENT_VISIT_DATE, "Selected Visit Date");
         
-        Helper.verifyElementEqualsText(labelComment, "Comment", "Label Comment");
-        Helper.verifyElementEqualsText(pComment, Config.APPOINTMENT_COMMENT, "Selected Comment");
+        Helper.verifyElementEqualsText(softAssert,labelComment, "Comment", "Label Comment");
+        Helper.verifyElementEqualsText(softAssert,pComment, Config.APPOINTMENT_COMMENT, "Selected Comment");
         
         Helper.verifyElementDisplayed(buttonGoToHomepage, "Button Go To Homepage");
-        Helper.verifyElementEqualsText(buttonGoToHomepage, "Go to Homepage", "Button Go To Homepage");
+        Helper.verifyElementEqualsText(softAssert,buttonGoToHomepage, "Go to Homepage", "Button Go To Homepage");
 	}
 }

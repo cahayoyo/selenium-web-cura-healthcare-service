@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import org.testng.asserts.SoftAssert;
 import utils.Config;
 import utils.Helper;
 
@@ -52,22 +53,22 @@ public class LoginPage {
 
     public void clickButtonLogin() { buttonLogin.click(); }
 
-    public void verifyLoginPageElements() {
+    public void verifyLoginPageElements(SoftAssert softAssert) {
     	Helper.waitUrlContains(driver, Config.BASE_URL_LOGIN, 10);
-        Helper.verifyEqualsUrl(driver, Config.BASE_URL_LOGIN, "Login via Login button Sidebar");
+        Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL_LOGIN, "Login via Login button Sidebar");
 
-        Helper.verifyElementEqualsText(h2Login, "Login", "Header H2 Login");
+        Helper.verifyElementEqualsText(softAssert,h2Login, "Login", "Header H2 Login");
 
-        Helper.verifyElementEqualsText(labelUsername, "Username", "Label Username");
-        Helper.verifyElementEqualsText(labelPassword, "Password", "Label Password");
+        Helper.verifyElementEqualsText(softAssert,labelUsername, "Username", "Label Username");
+        Helper.verifyElementEqualsText(softAssert,labelPassword, "Password", "Label Password");
         Helper.verifyElementDisplayed(inputUsername, "Input Username");
         Helper.verifyElementDisplayed(inputPassword, "Input Password");
 
-        Helper.verifyElementEqualsText(buttonLogin, "Login", "Button Login");
+        Helper.verifyElementEqualsText(softAssert,buttonLogin, "Login", "Button Login");
         Helper.verifyElementDisplayed(buttonLogin, "Button Login");
     }
 
-    public void loginSuccess(String username, String password) {
+    public void loginSuccess(String username, String password, SoftAssert softAssert) {
         inputUsername.clear();
         inputUsername.sendKeys(username);
 
@@ -77,10 +78,10 @@ public class LoginPage {
         buttonLogin.click();
         
         Helper.waitUrlContains(driver, "#appointment", 10);
-		Helper.verifyEqualsUrl(driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
+		Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL_APPOINTMENT, "Appointment URL");
     }
     
-    public void loginFailed(String username, String password) {
+    public void loginFailed(String username, String password, SoftAssert softAssert) {
         inputUsername.clear();
         inputUsername.sendKeys(username);
 
@@ -91,9 +92,9 @@ public class LoginPage {
         
         Helper.waitVisible(driver, pLoginFailed, 5);
         Helper.verifyElementDisplayed(pLoginFailed, "H2 Warning Login Failed");
-        Helper.verifyElementEqualsText(pLoginFailed, "Login failed! Please ensure the username and password are valid.", "H2 Warning Login Failed");
+        Helper.verifyElementEqualsText(softAssert,pLoginFailed, "Login failed! Please ensure the username and password are valid.", "H2 Warning Login Failed");
         
         Helper.waitUrlContains(driver, Config.BASE_URL_LOGIN, 10);
-		Helper.verifyEqualsUrl(driver, Config.BASE_URL_LOGIN, "Login URL");
+		Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL_LOGIN, "Login URL");
     }
 }

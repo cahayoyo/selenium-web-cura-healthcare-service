@@ -1,57 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="0" failed="1" skipped="0">
+<testng-results ignored="3" total="4" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-30T15:24:02 WIB" name="Default suite" finished-at="2026-04-30T15:24:20 WIB" duration-ms="17696">
+  <suite started-at="2026-05-06T17:39:00 WIB" name="Default suite" finished-at="2026-05-06T17:39:03 WIB" duration-ms="3306">
     <groups>
     </groups>
-    <test started-at="2026-04-30T15:24:02 WIB" name="Default test" finished-at="2026-04-30T15:24:20 WIB" duration-ms="17696">
-      <class name="tests.AppointmentTests">
-        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.AppointmentTests@2d1ef81a]" started-at="2026-04-30T15:24:02 WIB" name="setUpReport" finished-at="2026-04-30T15:24:02 WIB" duration-ms="157" status="PASS">
+    <test started-at="2026-05-06T17:39:00 WIB" name="Default test" finished-at="2026-05-06T17:39:03 WIB" duration-ms="3306">
+      <class name="tests.HomeTests">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.HomeTests@7586beff]" started-at="2026-05-06T17:39:00 WIB" name="setUpReport" finished-at="2026-05-06T17:39:00 WIB" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.AppointmentTests@2d1ef81a]" started-at="2026-04-30T15:24:02 WIB" name="setUp" finished-at="2026-04-30T15:24:07 WIB" duration-ms="4443" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.HomeTests@7586beff]" started-at="2026-05-06T17:39:00 WIB" name="setUp" finished-at="2026-05-06T17:39:03 WIB" duration-ms="3249" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.AppointmentTests.TC_020AppointmentFailedInvalidDate()]]>
+                <![CDATA[public void tests.HomeTests.TC001_VerifyHomePage()]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="TC_020AppointmentFailedInvalidDate()[pri:0, instance:tests.AppointmentTests@2d1ef81a]" started-at="2026-04-30T15:24:07 WIB" name="TC_020AppointmentFailedInvalidDate" finished-at="2026-04-30T15:24:20 WIB" duration-ms="12994" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Expected condition failed: waiting for url to contain "https://katalon-demo-cura.herokuapp.com/#appointment". Current url: "https://katalon-demo-cura.herokuapp.com/appointment.php#summary"
-(tried for 10 seconds with 500 milliseconds interval)
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'CAHAYOYOPC', ip: '192.168.182.1'
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:21211}, goog:processID: 1964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:21211/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 626df12b1ad045964fddee9ce4684625]]>
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: [], prefs: {credentials_enable_service: false, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false}}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: [], prefs: {credentials_enable_service: false, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false}}}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://katalon-demo-cura.herokuapp.com/#appointment". Current url: "https://katalon-demo-cura.herokuapp.com/appointment.php#summary"
-(tried for 10 seconds with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'CAHAYOYOPC', ip: '192.168.182.1'
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\cahay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:21211}, goog:processID: 1964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:21211/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 626df12b1ad045964fddee9ce4684625
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at utils.Helper.waitUrlContains(Helper.java:97)
-at pages.AppointmentPage.fillingFormAppointmentFailedInvalidDate(AppointmentPage.java:165)
-at tests.AppointmentTests.TC_020AppointmentFailedInvalidDate(AppointmentTests.java:106)
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: [], prefs: {credentials_enable_service: false, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false}}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: [], prefs: {credentials_enable_service: false, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false}}}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:627)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:290)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:169)
+at base.BaseTest.setUp(BaseTest.java:53)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
@@ -74,28 +75,190 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.remote.http.jdk.ConnectionException: Connection error (POST http://selenium-chrome:4444/wd/hub/session)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:488)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:44)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$0(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$0(JdkHttpClient.java:389)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:574)
+at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:463)
+... 8 more
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1092)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:239)
+at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:565)
+at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:436)
+at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$10(Exchange.java:569)
+at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340)
+at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:569)
+at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:412)
+at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:404)
+at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408)
+at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449)
+at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340)
+at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439)
+at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341)
+at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158)
+at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673)
+at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:294)
+at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:659)
+at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:553)
+... 10 more
+Caused by: java.nio.channels.UnresolvedAddressException
+at java.base/sun.nio.ch.Net.checkAddress(Net.java:149)
+at java.base/sun.nio.ch.Net.checkAddress(Net.java:157)
+at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:816)
+at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:839)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+... 35 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_020AppointmentFailedInvalidDate -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AppointmentTests@2d1ef81a]" started-at="2026-04-30T15:24:20 WIB" name="tearDown" finished-at="2026-04-30T15:24:20 WIB" duration-ms="229" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_020AppointmentFailedInvalidDate status=FAILURE method=AppointmentTests.TC_020AppointmentFailedInvalidDate()[pri:0, instance:tests.AppointmentTests@2d1ef81a] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC001_VerifyHomePage()[pri:0, instance:tests.HomeTests@7586beff]" started-at="2026-05-06T17:39:03 WIB" name="TC001_VerifyHomePage" finished-at="2026-05-06T17:39:03 WIB" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'CAHAYOYOPC', ip: '192.168.182.1'
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: [], prefs: {credentials_enable_service: false, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false}}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: [], prefs: {credentials_enable_service: false, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false}}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'CAHAYOYOPC', ip: '192.168.182.1'
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: [], prefs: {credentials_enable_service: false, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false}}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: [], prefs: {credentials_enable_service: false, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false}}}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:627)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:290)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:169)
+at base.BaseTest.setUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.remote.http.jdk.ConnectionException: Connection error (POST http://selenium-chrome:4444/wd/hub/session)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:488)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:44)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$0(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$0(JdkHttpClient.java:389)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:574)
+at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:463)
+... 8 more
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1092)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:239)
+at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:565)
+at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:436)
+at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$10(Exchange.java:569)
+at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340)
+at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:569)
+at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:412)
+at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:404)
+at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408)
+at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449)
+at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340)
+at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439)
+at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341)
+at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158)
+at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673)
+at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:294)
+at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:659)
+at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:553)
+... 10 more
+Caused by: java.nio.channels.UnresolvedAddressException
+at java.base/sun.nio.ch.Net.checkAddress(Net.java:149)
+at java.base/sun.nio.ch.Net.checkAddress(Net.java:157)
+at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:816)
+at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:839)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+... 35 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_VerifyHomePage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.HomeTests@7586beff]" started-at="2026-05-06T17:39:03 WIB" name="tearDown" finished-at="2026-05-06T17:39:03 WIB" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.AppointmentTests@2d1ef81a]" started-at="2026-04-30T15:24:20 WIB" name="tearDownReport" finished-at="2026-04-30T15:24:20 WIB" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.HomeTests@7586beff]" started-at="2026-05-06T17:39:03 WIB" name="tearDownReport" finished-at="2026-05-06T17:39:04 WIB" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
-      </class> <!-- tests.AppointmentTests -->
+      </class> <!-- tests.HomeTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

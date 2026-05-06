@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import org.testng.asserts.SoftAssert;
 import utils.Config;
 import utils.Helper;
 import utils.Log;
@@ -55,7 +56,7 @@ public class DropDown {
     public void clickLinkProfile() { linkProfile.click(); }
     public void clickLinkLogout() { linkLogout.click(); }
 
-    public void goToHomeViaLinkCura() {
+    public void goToHomeViaLinkCura(SoftAssert softAssert) {
     	HomePage home = new HomePage(driver);
     	
         Helper.waitClickable(driver, menuToggle, 5);
@@ -67,11 +68,11 @@ public class DropDown {
         clickLinkCuraHealthCare();
         
         Helper.waitUrlContains(driver, Config.BASE_URL, 5);
-        Helper.verifyEqualsUrl(driver, Config.BASE_URL, "Home URL");
-        Helper.verifyElementEqualsText(home.getCuraH1(), "CURA Healthcare Service", "Header H1 after redirection");
+        Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL, "Home URL");
+        Helper.verifyElementEqualsText(softAssert,home.getCuraH1(), "CURA Healthcare Service", "Header H1 after redirection");
     }
 
-    public void goToHomeViaHomeButton() {
+    public void goToHomeViaHomeButton(SoftAssert softAssert) {
     	HomePage home = new HomePage(driver);
     	
         Helper.waitClickable(driver, menuToggle, 5);
@@ -83,11 +84,11 @@ public class DropDown {
         clickLinkHome();
         
         Helper.waitUrlContains(driver, Config.BASE_URL, 5);
-        Helper.verifyEqualsUrl(driver, Config.BASE_URL, "Home URL");
-        Helper.verifyElementEqualsText(home.getCuraH1(), "CURA Healthcare Service", "Header H1 after redirection");
+        Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL, "Home URL");
+        Helper.verifyElementEqualsText(softAssert,home.getCuraH1(), "CURA Healthcare Service", "Header H1 after redirection");
     }
     
-    public void goToLoginPage() {
+    public void goToLoginPage(SoftAssert softAssert) {
     	LoginPage login = new LoginPage(driver);
     	 
         Helper.waitClickable(driver, menuToggle, 5);
@@ -99,11 +100,11 @@ public class DropDown {
         clickLinkLogin();
         
         Helper.waitUrlContains(driver, Config.BASE_URL_LOGIN, 5);
-        Helper.verifyEqualsUrl(driver, Config.BASE_URL_LOGIN, "Login URL");
-        Helper.verifyElementEqualsText(login.getH2Login(), "Login", "Header H2 Login");
+        Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL_LOGIN, "Login URL");
+        Helper.verifyElementEqualsText(softAssert,login.getH2Login(), "Login", "Header H2 Login");
     }
 
-    public void goToHistory() {
+    public void goToHistory(SoftAssert softAssert) {
     	HistoryPage history = new HistoryPage(driver);
     	
         Helper.waitClickable(driver, menuToggle, 5);
@@ -115,11 +116,11 @@ public class DropDown {
         clickLinkHistory();
         
         Helper.waitUrlContains(driver, Config.BASE_URL_HISTORY, 5);
-        Helper.verifyEqualsUrl(driver, Config.BASE_URL_HISTORY, "History URL");
-        Helper.verifyElementEqualsText(history.getH2History(), "History", "Header H2 History");
+        Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL_HISTORY, "History URL");
+        Helper.verifyElementEqualsText(softAssert,history.getH2History(), "History", "Header H2 History");
     }
 
-    public void goToProfile() {
+    public void goToProfile(SoftAssert softAssert) {
     	ProfilePage profile = new ProfilePage(driver);
     	
         Helper.waitClickable(driver, menuToggle, 5);
@@ -131,11 +132,11 @@ public class DropDown {
         clickLinkProfile();
         
         Helper.waitUrlContains(driver, Config.BASE_URL_PROFILE, 5);
-        Helper.verifyEqualsUrl(driver, Config.BASE_URL_PROFILE, "Profile URL");
-        Helper.verifyElementEqualsText(profile.getH2Profile(), "Profile", "Header H2 Profile");
+        Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL_PROFILE, "Profile URL");
+        Helper.verifyElementEqualsText(softAssert,profile.getH2Profile(), "Profile", "Header H2 Profile");
     }
     
-    public void goLogout() {
+    public void goLogout(SoftAssert softAssert) {
     	HomePage home = new HomePage(driver);
         Helper.waitClickable(driver, menuToggle, 5);
         Log.info("Step: Clicked Menu Toggle.");
@@ -146,8 +147,8 @@ public class DropDown {
         clickLinkLogout();
         
         Helper.waitUrlContains(driver, Config.BASE_URL, 5);
-        Helper.verifyEqualsUrl(driver, Config.BASE_URL, "Home URL");
-        Helper.verifyElementEqualsText(home.getCuraH1(), "CURA Healthcare Service", "Header H1 after redirection");
+        Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL, "Home URL");
+        Helper.verifyElementEqualsText(softAssert,home.getCuraH1(), "CURA Healthcare Service", "Header H1 after redirection");
     }
 
     

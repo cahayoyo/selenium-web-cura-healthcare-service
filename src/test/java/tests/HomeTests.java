@@ -3,6 +3,7 @@ package tests;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
+import org.testng.asserts.SoftAssert;
 import pages.HomePage;
 import utils.ExtentReportManager;
 import utils.Log;
@@ -11,12 +12,14 @@ public class HomeTests extends BaseTest {
 
 	@Test
     public void TC001_VerifyHomePage() {
+        SoftAssert softAssert = new SoftAssert();
+
         Log.info("=== Running: TC001_VerifyHomePage ===");
         test = ExtentReportManager.createTest("TC001_VerifyHomePage");
         
         HomePage home = new HomePage(driver);
         
-        home.verifyHomePageElements();
+        home.verifyHomePageElements(softAssert);
         
         Log.info("=== TC001_VerifyHomePage Finished ===");
         test.pass("TC001_VerifyHomePage PASSED");

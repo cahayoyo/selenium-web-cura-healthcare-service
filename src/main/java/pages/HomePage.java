@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import org.testng.asserts.SoftAssert;
 import utils.Config;
 import utils.Helper;
 
@@ -57,27 +58,28 @@ public class HomePage {
 
 	public WebElement getCopyrightFooter() { return copyrightFooter; }
 	
-	public void verifyHomePageElements() {
+	public void verifyHomePageElements(SoftAssert softAssert) {
         Helper.waitUrlContains(driver, Config.BASE_URL, 10);
-        Helper.verifyEqualsUrl(driver, Config.BASE_URL, "Home URL");
+        Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL, "Home URL");
         
-        Helper.verifyElementEqualsText(curaH1, "CURA Healthcare Service", "Header H1");
-        Helper.verifyElementEqualsText(weCareH3, "We Care About Your Health", "Header H3");
+        Helper.verifyElementEqualsText(softAssert, curaH1, "CURA Healthcare Service", "Header H1");
+        Helper.verifyElementEqualsText(softAssert,weCareH3, "We Care About Your Health", "Header H3");
 
-        Helper.verifyElementEqualsText(buttonMakeAppointment, "Make Appointment", "Button Make Appointment");
+        Helper.verifyElementEqualsText(softAssert,buttonMakeAppointment, "Make Appointment", "Button Make Appointment");
 
-        Helper.verifyElementEqualsText(curaFooter, "CURA Healthcare Service", "Footer Title");
+        Helper.verifyElementEqualsText(softAssert,curaFooter, "CURA Healthcare Service", "Footer Title");
 
         Helper.verifyElementContainsText(addressFooter, "Atlanta 550 Pharr Road NE Suite 525", "Footer Address");
         Helper.verifyElementContainsText(phoneFooter, "(678) 813-1KMS", "Footer Phone");
-        Helper.verifyElementEqualsText(emailFooter, "info@katalon.com", "Footer Email");
+        Helper.verifyElementEqualsText(softAssert,emailFooter, "info@katalon.com", "Footer Email");
 
         Helper.verifyElementDisplayed(facebookIcon, "Icon Facebook");
         Helper.verifyElementDisplayed(xIcon, "Icon X");
         Helper.verifyElementDisplayed(dribbleIcon, "Icon Dribbble");
         
         Helper.verifyElementContainsText(copyrightFooter, "CURA Healthcare Service 2026", "Footer Copyright");
-	}
+	    softAssert.assertAll();
+    }
 	
 	public void clickFacebook() {
 		Helper.waitVisible(driver, facebookIcon, 5);

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import org.testng.asserts.SoftAssert;
 import utils.Config;
 import utils.Helper;
 
@@ -66,44 +67,44 @@ public class HistoryPage {
     public WebElement getPComment() { return pComment; }
     public WebElement getButtonGoToHomepage() { return buttonGoToHomepage; }
 
-    public void clickButtonGoToHomepage() { 
+    public void clickButtonGoToHomepage(SoftAssert softAssert) {
     	buttonGoToHomepage.click(); 
     	
     	Helper.waitUrlContains(driver, Config.BASE_URL, 10);
-    	Helper.verifyEqualsUrl(driver, Config.BASE_URL, "Home URL");
+    	Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL, "Home URL");
     }
     
-    public void verifyHistoryPageElements() {
+    public void verifyHistoryPageElements(SoftAssert softAssert) {
         Helper.waitUrlContains(driver, Config.BASE_URL_HISTORY, 10);
-        Helper.verifyEqualsUrl(driver, Config.BASE_URL_HISTORY, "History URL");
+        Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL_HISTORY, "History URL");
         
-        Helper.verifyElementEqualsText(h2History, "History", "H2 History");
+        Helper.verifyElementEqualsText(softAssert,h2History, "History", "H2 History");
         
-        Helper.verifyElementEqualsText(h2History, "History", "H2 History");
+        Helper.verifyElementEqualsText(softAssert,h2History, "History", "H2 History");
         Helper.verifyElementDisplayed(buttonGoToHomepage, "Button Go To Homepage");
 	}
-    public void verifyHistoryPageElementsAfterMakingAppointment() {
+    public void verifyHistoryPageElementsAfterMakingAppointment(SoftAssert softAssert) {
         Helper.waitUrlContains(driver, Config.BASE_URL_HISTORY, 10);
-        Helper.verifyEqualsUrl(driver, Config.BASE_URL_HISTORY, "History URL");
+        Helper.verifyEqualsUrl(softAssert,driver, Config.BASE_URL_HISTORY, "History URL");
         
-        Helper.verifyElementEqualsText(h2History, "History", "H2 History");
+        Helper.verifyElementEqualsText(softAssert,h2History, "History", "H2 History");
         
-        Helper.verifyElementEqualsText(h2History, "History", "H2 History");
+        Helper.verifyElementEqualsText(softAssert,h2History, "History", "H2 History");
         
-        Helper.verifyElementEqualsText(panelHeading, Config.APPOINTMENT_VISIT_DATE, "Date Heading");
+        Helper.verifyElementEqualsText(softAssert,panelHeading, Config.APPOINTMENT_VISIT_DATE, "Date Heading");
         Helper.verifyElementDisplayed(panelHeading, "Date Heading");
         
-        Helper.verifyElementEqualsText(labelFacility, "Facility", "Label Facility");
-        Helper.verifyElementEqualsText(pFacility, Config.APPOINTMENT_FACILITY, "Selected Facility");
+        Helper.verifyElementEqualsText(softAssert,labelFacility, "Facility", "Label Facility");
+        Helper.verifyElementEqualsText(softAssert,pFacility, Config.APPOINTMENT_FACILITY, "Selected Facility");
 
-        Helper.verifyElementEqualsText(labelHospitalReadmission, "Apply for hospital readmission", "Label Hospital Readmission");
-        Helper.verifyElementEqualsText(pHospitalReadmission, "Yes", "Selected Hospital Readmission");
+        Helper.verifyElementEqualsText(softAssert,labelHospitalReadmission, "Apply for hospital readmission", "Label Hospital Readmission");
+        Helper.verifyElementEqualsText(softAssert,pHospitalReadmission, "Yes", "Selected Hospital Readmission");
         
-        Helper.verifyElementEqualsText(labelProgram, "Healthcare Program", "Label Healthcare Program");
-        Helper.verifyElementEqualsText(pProgram, Config.APPOINTMENT_HEALTHCARE_PROGRAM, "Selected Healthcare Program");
+        Helper.verifyElementEqualsText(softAssert,labelProgram, "Healthcare Program", "Label Healthcare Program");
+        Helper.verifyElementEqualsText(softAssert,pProgram, Config.APPOINTMENT_HEALTHCARE_PROGRAM, "Selected Healthcare Program");
         
-        Helper.verifyElementEqualsText(labelComment, "Comment", "Label Comment");
-        Helper.verifyElementEqualsText(pComment, Config.APPOINTMENT_COMMENT, "Inputed Comment");
+        Helper.verifyElementEqualsText(softAssert,labelComment, "Comment", "Label Comment");
+        Helper.verifyElementEqualsText(softAssert,pComment, Config.APPOINTMENT_COMMENT, "Inputed Comment");
         
         Helper.verifyElementDisplayed(buttonGoToHomepage, "Button Go To Homepage");	
 	}
